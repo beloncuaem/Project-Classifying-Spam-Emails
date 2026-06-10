@@ -1,0 +1,66 @@
+{
+  "spamassassin_labeled": {
+    "row_count": 5903,
+    "label_counts": {
+      "0": 4112,
+      "1": 1791
+    },
+    "invalid_label_count": 0,
+    "empty_text_count": 0,
+    "short_text_count": 3,
+    "duplicate_text_count": 0,
+    "is_valid": true
+  },
+  "spamassassin_balanced": {
+    "row_count": 3582,
+    "label_counts": {
+      "0": 1791,
+      "1": 1791
+    },
+    "invalid_label_count": 0,
+    "empty_text_count": 0,
+    "short_text_count": 3,
+    "duplicate_text_count": 0,
+    "is_valid": true
+  },
+  "combined_labeled": {
+    "row_count": 315668,
+    "label_counts": {
+      "0": 148098,
+      "1": 167570
+    },
+    "invalid_label_count": 0,
+    "empty_text_count": 0,
+    "short_text_count": 1252,
+    "duplicate_text_count": 10,
+    "is_valid": true
+  },
+  "combined_balanced": {
+    "row_count": 296196,
+    "label_counts": {
+      "0": 148098,
+      "1": 148098
+    },
+    "invalid_label_count": 0,
+    "empty_text_count": 0,
+    "short_text_count": 1156,
+    "duplicate_text_count": 10,
+    "is_valid": true
+  },
+  "source_counts": {
+    "locuoco_big_spam_ham_phish_300k": 279304,
+    "setfit_enron_spam": 30461,
+    "easy_ham": 2472,
+    "easy_ham_2": 1389,
+    "spam_2": 1315,
+    "spam": 476,
+    "hard_ham": 251
+  },
+  "paths": {
+    "spamassassin_labeled": "C:\\Users\\User\\OneDrive - ut.edu.vn\\Documents\\Machine Learning - Trường\\spam_email_classifier\\data\\processed\\spamassassin_labeled.csv",
+    "spamassassin_balanced": "C:\\Users\\User\\OneDrive - ut.edu.vn\\Documents\\Machine Learning - Trường\\spam_email_classifier\\data\\processed\\spamassassin_balanced.csv",
+    "combined_labeled": "C:\\Users\\User\\OneDrive - ut.edu.vn\\Documents\\Machine Learning - Trường\\spam_email_classifier\\data\\processed\\combined_labeled.csv",
+    "combined_balanced": "C:\\Users\\User\\OneDrive - ut.edu.vn\\Documents\\Machine Learning - Trường\\spam_email_classifier\\data\\processed\\combined_balanced.csv"
+  },
+  "label_note": "For locuoco dataset, original labels 1=phish and 2=spam are mapped to binary label 1."
+}
