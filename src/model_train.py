@@ -4,6 +4,9 @@ import pickle
 from pathlib import Path
 
 import pandas as pd
+import numpy as np # <-- THÊM MỚI
+import matplotlib.pyplot as plt # <-- THÊM MỚI
+from sklearn.model_selection import train_test_split, GridSearchCV, learning_curve # <-- THÊM learning_curve
 from sklearn.model_selection import train_test_split, GridSearchCV
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.naive_bayes import MultinomialNB
@@ -195,6 +198,67 @@ def evaluate_predictions(models, X_test_tfidf, y_test, save_models_dir=None):
     
     return df_metrics
 
+def plot_learning_curves(models, X, y, save_dir=None):
+    """
+    Ý nghĩa xử lý: Vẽ biểu đồ Learning Curve để đánh giá hiệu suất mô hình 
+                  khi lượng dữ liệu huấn luyện tăng dần.
+                  
+    Input:
+        - models (dict): Từ điển chứa các mô hình đã Tuning (best_estimators).
+        - X: Ma trận đặc trưng TF-IDF.
+        - y: Nhãn dữ liệu.
+        - save_dir (Path): Thư mục lưu hình ảnh biểu đồ.
+    """
+    print("[INFO] Đang tính toán và vẽ biểu đồ Learning Curve...")
+    
+    if save_dir:
+        save_dir = Path(save_dir)
+        save_dir.mkdir(parents=True, exist_ok=True)
+
+    for name, model_obj in models.items():
+        plt.figure(figsize=(10, 6))
+        plt.title(f"Learning Curve - {name.upper()}")
+        plt.xlabel("Số lượng mẫu huấn luyện (Training examples)")
+        plt.ylabel("F1-Score")
+
+        # Tính toán learning curve chia tập train từ 10% đến 100%
+        train_sizes, train_scores, test_scores = learning_curve(
+            estimator=model_obj, 
+            X=X, 
+            y=y, 
+            cv=5, # Cross-validation 5 fold
+            scoring='f1', 
+            n_jobs=-1,
+            train_sizes=np.linspace(0.1, 1.0, 5) 
+        )
+
+        # Tính trung bình và độ lệch chuẩn của các fold
+        train_scores_mean = np.mean(train_scores, axis=1)
+        train_scores_std = np.std(train_scores, axis=1)
+        test_scores_mean = np.mean(test_scores, axis=1)
+        test_scores_std = np.std(test_scores, axis=1)
+
+        plt.grid()
+        
+        # Vẽ dải màu thể hiện khoảng biến thiên (variance)
+        plt.fill_between(train_sizes, train_scores_mean - train_scores_std,
+                         train_scores_mean + train_scores_std, alpha=0.1, color="r")
+        plt.fill_between(train_sizes, test_scores_mean - test_scores_std,
+                         test_scores_mean + test_scores_std, alpha=0.1, color="g")
+                         
+        # Vẽ đường trung bình
+        plt.plot(train_sizes, train_scores_mean, 'o-', color="r", label="Training F1-Score")
+        plt.plot(train_sizes, test_scores_mean, 'o-', color="g", label="Cross-validation F1-Score")
+
+        plt.legend(loc="lower right")
+
+        # Lưu biểu đồ ra file
+        if save_dir:
+            file_path = save_dir / f"learning_curve_{name}.png"
+            plt.savefig(file_path, bbox_inches='tight')
+            print(f"  -> Đã lưu biểu đồ tại: {file_path}")
+        
+        plt.close() # Đóng plot để giải phóng bộ nhớ
 
 def run_modeling_pipeline():
     """
@@ -231,6 +295,19 @@ def run_modeling_pipeline():
     # 5. Huấn luyện + Tuning tham số bằng GridSearchCV (Gồm Naive Bayes, Logistic Regression, Linear SVM)
     tuned_models = train_and_tune_models(X_train_tfidf, y_train)
     print("[INFO] Hoàn thành huấn luyện và tối ưu tất cả các mô hình.")
+    
+    # ================= THÊM MỚI Ở ĐÂY =================
+    # Thư mục để lưu biểu đồ
+    plots_save_directory = config.MODELS_DIR / 'plots'
+    
+    # Gọi hàm vẽ biểu đồ cho tập huấn luyện
+    plot_learning_curves(
+        models=tuned_models, 
+        X=X_train_tfidf, 
+        y=y_train, 
+        save_dir=plots_save_directory
+    )
+    # ==================================================
     
     # 6. Đánh giá, xuất bảng kết quả metric và lưu trữ mô hình tốt nhất
     df_metrics = evaluate_predictions(
