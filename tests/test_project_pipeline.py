@@ -22,6 +22,7 @@ from src.data_quality import balance_clean_dataset, clean_dataset, find_data_iss
 from src.model_evaluate import calculate_metrics, confusion_counts
 from src.model_train import MODEL_DEFINITIONS, train_models
 from src.predict import predict_email
+from src.text_preprocess import clean_email_text, process_dataframe
 
 
 def build_small_training_dataset(repeat: int = 24) -> pd.DataFrame:
@@ -99,6 +100,28 @@ class ModelEvaluateTest(unittest.TestCase):
         self.assertAlmostEqual(metrics["precision_spam"], 2 / 3)
         self.assertAlmostEqual(metrics["recall_spam"], 2 / 3)
         self.assertAlmostEqual(metrics["f1_spam"], 2 / 3)
+
+
+class TextPreprocessTest(unittest.TestCase):
+    def test_clean_email_text_removes_html_and_normalizes_entities(self) -> None:
+        text = "<html><body>Hello! Visit https://example.com or email test@example.com for 100% FREE.</body></html>"
+        cleaned = clean_email_text(text)
+
+        self.assertNotIn("<html>", cleaned)
+        self.assertNotIn("https", cleaned)
+        self.assertNotIn("@", cleaned)
+        self.assertIn("urltoken", cleaned)
+        self.assertIn("emailtoken", cleaned)
+        self.assertIn("numbertoken", cleaned)
+        self.assertIn("free", cleaned)
+
+    def test_process_dataframe_adds_clean_text_column(self) -> None:
+        frame = pd.DataFrame({"text": ["Hi team, meeting at 10.", "FREE prize at http://spam.example"]})
+        processed = process_dataframe(frame)
+
+        self.assertIn("clean_text", processed.columns)
+        self.assertEqual(len(processed), 2)
+        self.assertIn("urltoken", processed.loc[1, "clean_text"])
 
 
 class ModelTrainTest(unittest.TestCase):
