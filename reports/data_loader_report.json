@@ -57,10 +57,10 @@
     "hard_ham": 251
   },
   "paths": {
-    "spamassassin_labeled": "C:\\Users\\User\\OneDrive - ut.edu.vn\\Documents\\Machine Learning - Trường\\spam_email_classifier\\data\\processed\\spamassassin_labeled.csv",
-    "spamassassin_balanced": "C:\\Users\\User\\OneDrive - ut.edu.vn\\Documents\\Machine Learning - Trường\\spam_email_classifier\\data\\processed\\spamassassin_balanced.csv",
-    "combined_labeled": "C:\\Users\\User\\OneDrive - ut.edu.vn\\Documents\\Machine Learning - Trường\\spam_email_classifier\\data\\processed\\combined_labeled.csv",
-    "combined_balanced": "C:\\Users\\User\\OneDrive - ut.edu.vn\\Documents\\Machine Learning - Trường\\spam_email_classifier\\data\\processed\\combined_balanced.csv"
+    "spamassassin_labeled": "C:\\Users\\User\\OneDrive - ut.edu.vn\\Documents\\Machine Learning - Trường\\Project-Classifying-Spam-Emails\\data\\processed\\spamassassin_labeled.csv",
+    "spamassassin_balanced": "C:\\Users\\User\\OneDrive - ut.edu.vn\\Documents\\Machine Learning - Trường\\Project-Classifying-Spam-Emails\\data\\processed\\spamassassin_balanced.csv",
+    "combined_labeled": "C:\\Users\\User\\OneDrive - ut.edu.vn\\Documents\\Machine Learning - Trường\\Project-Classifying-Spam-Emails\\data\\processed\\combined_labeled.csv",
+    "combined_balanced": "C:\\Users\\User\\OneDrive - ut.edu.vn\\Documents\\Machine Learning - Trường\\Project-Classifying-Spam-Emails\\data\\processed\\combined_balanced.csv"
   },
   "label_note": "For locuoco dataset, original labels 1=phish and 2=spam are mapped to binary label 1."
 }

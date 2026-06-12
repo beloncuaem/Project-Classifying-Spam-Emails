@@ -1,0 +1,19 @@
+{
+  "input_path": "C:\\Users\\User\\OneDrive - ut.edu.vn\\Documents\\Machine Learning - Trường\\Project-Classifying-Spam-Emails\\data\\processed\\combined_balanced.csv",
+  "clean_output_path": "C:\\Users\\User\\OneDrive - ut.edu.vn\\Documents\\Machine Learning - Trường\\Project-Classifying-Spam-Emails\\data\\processed\\combined_balanced_clean.csv",
+  "input_rows": 296196,
+  "clean_rows": 294718,
+  "removed_rows": 1478,
+  "input_label_counts": {
+    "0": 148098,
+    "1": 148098
+  },
+  "clean_label_counts": {
+    "0": 147359,
+    "1": 147359
+  },
+  "issue_counts": {
+    "short_text": 1156
+  },
+  "required_columns_present": true
+}

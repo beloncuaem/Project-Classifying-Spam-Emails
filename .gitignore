@@ -3,3 +3,6 @@ __pycache__/
 .venv/
 venv/
 
+# File clean tạo lại bằng: python src/data_quality.py
+data/processed/combined_balanced_clean.csv
+

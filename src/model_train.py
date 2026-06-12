@@ -1,246 +1,167 @@
-import os
+"""Train các model spam email theo format chung của project.
+
+Model được lưu dưới dạng sklearn Pipeline `.joblib`, gồm:
+- TfidfVectorizer
+- Bộ phân loại NB/LR/SVM
+
+File `models/spam_classifier.joblib` là model tốt nhất để `src/predict.py` load trực tiếp.
+"""
+
+from __future__ import annotations
+
+import json
 import sys
-import pickle
 from pathlib import Path
+from typing import Any
 
+import joblib
 import pandas as pd
-from sklearn.model_selection import train_test_split, GridSearchCV
 from sklearn.feature_extraction.text import TfidfVectorizer
-from sklearn.naive_bayes import MultinomialNB
 from sklearn.linear_model import LogisticRegression
+from sklearn.metrics import accuracy_score, f1_score, precision_score, recall_score
+from sklearn.model_selection import train_test_split
+from sklearn.naive_bayes import MultinomialNB
+from sklearn.pipeline import Pipeline
 from sklearn.svm import LinearSVC
-from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_score
 
-# Add project root to sys.path so config.py can be imported when running src/model_train.py
-sys.path.append(str(Path(__file__).resolve().parent.parent))
+sys.path.append(str(Path(__file__).resolve().parents[1]))
+
 import config
 
 
-def load_processed_data(file_path):
-    """
-    Ý nghĩa xử lý: Đọc dữ liệu đã được làm sạch sau bước tiền xử lý.
-    
-    Input:
-        - file_path (str/Path): Đường dẫn tới file dữ liệu csv.
-        
-    Output:
-        - df (pd.DataFrame): DataFrame chứa dữ liệu email sạch.
-    """
-    if not os.path.exists(file_path):
-        raise FileNotFoundError(f"Không tìm thấy file dữ liệu tại: {file_path}")
-    return pd.read_csv(file_path)
+MODEL_DEFINITIONS = {
+    "naive_bayes": MultinomialNB(alpha=0.5),
+    "logistic_regression": LogisticRegression(
+        C=1.0,
+        max_iter=1000,
+        random_state=config.RANDOM_STATE,
+    ),
+    "linear_svm": LinearSVC(C=1.0, random_state=config.RANDOM_STATE),
+}
 
 
-def extract_tfidf_features(X_train, X_test, save_vectorizer_path=None):
-    """
-    Ý nghĩa xử lý: Biến đổi dữ liệu văn bản thành ma trận đặc trưng TF-IDF.
-    
-    Input:
-        - X_train (pd.Series): Dữ liệu text huấn luyện.
-        - X_test (pd.Series): Dữ liệu text kiểm thử.
-        - save_vectorizer_path (Path): Đường dẫn để lưu trữ bộ vectorizer sau khi fit.
-        
-    Output:
-        - X_train_tfidf: Ma trận đặc trưng tập train.
-        - X_test_tfidf: Ma trận đặc trưng tập test.
-    """
-    # Khởi tạo vectorizer với các hằng số cấu hình từ config.py
-    tfidf_vectorizer = TfidfVectorizer(
-        max_features=config.MAX_FEATURES, 
-        ngram_range=config.NGRAM_RANGE
-    )
-    
-    X_train_tfidf = tfidf_vectorizer.fit_transform(X_train)
-    X_test_tfidf = tfidf_vectorizer.transform(X_test)
-    
-    # Lưu bộ Vectorizer phục vụ cho việc Predict email mới sau này (Tuấn Tú cần dùng)
-    if save_vectorizer_path:
-        save_vectorizer_path = Path(save_vectorizer_path)
-        save_vectorizer_path.parent.mkdir(parents=True, exist_ok=True)
-        with open(save_vectorizer_path, 'wb') as f:
-            pickle.dump(tfidf_vectorizer, f)
-            
-    return X_train_tfidf, X_test_tfidf
-
-
-def train_and_tune_models(X_train_tfidf, y_train):
-    """
-    Ý nghĩa xử lý: Định nghĩa lưới tham số và dùng GridSearchCV để tìm 
-                  tham số tối ưu cho từng mô hình (Tuning hệ số phạt C và Alpha).
-                  
-    Input:
-        - X_train_tfidf: Ma trận đặc trưng TF-IDF tập huấn luyện.
-        - y_train (pd.Series): Nhãn của tập huấn luyện.
-        
-    Output:
-        - best_estimators (dict): Từ điển chứa các mô hình đã được chọn lựa tham số tốt nhất.
-    """
-    print("[INFO] Đang tiến hành Tuning tham số bằng GridSearchCV (Tối ưu theo F1-Score)...")
-    
-    # Cấu hình các mô hình và không gian tham số cần quét (Tuning)
-    model_blueprints = {
-        "naive_bayes": {
-            "model": MultinomialNB(),
-            "params": {
-                "alpha": [0.1, 0.5, 1.0]
-            }
-        },
-        "logistic_regression": {
-            "model": LogisticRegression(max_iter=1000, random_state=config.RANDOM_STATE),
-            "params": {
-                "C": [0.1, 1.0, 10.0]
-            }
-        },
-        "linear_svm": {
-            "model": LinearSVC(max_iter=2000, random_state=config.RANDOM_STATE),
-            "params": {
-                "C": [0.01, 0.1, 1.0, 10.0]
-            }
-        }
-    }
-    
-    best_estimators = {}
-    
-    for model_name, blueprint in model_blueprints.items():
-        # Sử dụng scoring='f1' và thực hiện Cross-Validation K-Fold với K=5
-        grid_search = GridSearchCV(
-            estimator=blueprint["model"],
-            param_grid=blueprint["params"],
-            scoring="f1",
-            cv=5,
-            n_jobs=-1
+def load_training_data(data_path: Path = config.COMBINED_BALANCED_CLEAN_PATH) -> pd.DataFrame:
+    """Đọc dataset clean để train model."""
+    if not data_path.exists():
+        raise FileNotFoundError(
+            f"Không tìm thấy file train: {data_path}. "
+            "Hãy chạy: python src/data_quality.py"
         )
-        grid_search.fit(X_train_tfidf, y_train)
-        
-        # Ghi nhận mô hình tốt nhất của thuật toán đó
-        best_estimators[model_name] = grid_search.best_estimator_
-        print(f"  -> Mô hình [{model_name}] tối ưu nhất với tham số: {grid_search.best_params_}")
-        
-    return best_estimators
+    dataset = pd.read_csv(data_path)
+    dataset = dataset[dataset["label"].isin([0, 1])]
+    dataset["text"] = dataset["text"].fillna("").astype(str)
+    dataset["label"] = dataset["label"].astype(int)
+    return dataset
 
 
-def evaluate_predictions(models, X_test_tfidf, y_test, save_models_dir=None):
-    """
-    Ý nghĩa xử lý: Đánh giá hiệu năng của các mô hình đã được Tuning trên tập kiểm thử,
-                  xuất ra bảng chỉ số và tìm ra Best Model ứng viên xuất sắc nhất.
-                  
-    Input:
-        - models (dict): Từ điển chứa các mô hình đã huấn luyện xong.
-        - X_test_tfidf: Ma trận đặc trưng TF-IDF tập kiểm thử.
-        - y_test (pd.Series): Nhãn thực tế tập kiểm thử.
-        - save_models_dir (Path): Thư mục dạng Path để lưu các file model (.pkl).
-        
-    Output:
-        - df_metrics (pd.DataFrame): Bảng chứa Accuracy, Precision, Recall, F1-Score.
-    """
-    evaluation_results = []
-    best_f1 = -1
-    best_model_name = ""
-    best_model_obj = None
-    
-    # Ánh xạ hiển thị đẹp mắt phục vụ Report của Tuấn Tú
-    name_mapping = {
-        "naive_bayes": "Naive Bayes (Tuned)",
-        "logistic_regression": "Logistic Regression (Tuned)",
-        "linear_svm": "Linear SVM (Tuned)"
+def make_pipeline(model) -> Pipeline:
+    """Tạo pipeline TF-IDF + model."""
+    return Pipeline(
+        steps=[
+            (
+                "tfidf",
+                TfidfVectorizer(
+                    max_features=config.MAX_FEATURES,
+                    ngram_range=config.NGRAM_RANGE,
+                    stop_words="english",
+                    lowercase=True,
+                ),
+            ),
+            ("model", model),
+        ]
+    )
+
+
+def calculate_model_metrics(y_true, y_pred, model_name: str) -> dict[str, Any]:
+    """Tính metrics chính cho class spam."""
+    return {
+        "model": model_name,
+        "accuracy": float(accuracy_score(y_true, y_pred)),
+        "precision_spam": float(precision_score(y_true, y_pred, zero_division=0)),
+        "recall_spam": float(recall_score(y_true, y_pred, zero_division=0)),
+        "f1_spam": float(f1_score(y_true, y_pred, zero_division=0)),
     }
-    
-    for model_name, model_obj in models.items():
-        # Dự đoán nhãn
-        y_pred = model_obj.predict(X_test_tfidf)
-        
-        # Tính toán các chỉ số metric
-        acc = accuracy_score(y_test, y_pred)
-        prec = precision_score(y_test, y_pred, average='binary', zero_division=0)
-        rec = recall_score(y_test, y_pred, average='binary', zero_division=0)
-        f1 = f1_score(y_test, y_pred, average='binary', zero_division=0)
-        
-        display_name = name_mapping.get(model_name, model_name)
-        
-        evaluation_results.append({
-            "Model": display_name,
-            "Accuracy": round(acc, 4),
-            "Precision": round(prec, 4),
-            "Recall": round(rec, 4),
-            "F1-Score": round(f1, 4)
-        })
-        
-        # Thuật toán tìm Best Model dựa trên F1-Score cao nhất
-        if f1 > best_f1:
-            best_f1 = f1
-            best_model_name = display_name
-            best_model_obj = model_obj
-        
-        # Lưu từng mô hình thành file .pkl độc lập
-        if save_models_dir:
-            save_models_dir = Path(save_models_dir)
-            model_path = save_models_dir / f"{model_name}_model.pkl"
-            with open(model_path, 'wb') as f:
-                pickle.dump(model_obj, f)
-                
-    # Lưu riêng một file "best_model.pkl" đại diện cho mô hình chiến thắng
-    if save_models_dir and best_model_obj:
-        with open(save_models_dir / "best_model.pkl", 'wb') as f:
-            pickle.dump(best_model_obj, f)
-            
-    # Tạo DataFrame kết quả dạng bảng theo đúng yêu cầu đề bài
-    df_metrics = pd.DataFrame(evaluation_results)
-    
-    print("\n" + "="*23 + " BẢNG KẾT QUẢ SO SÁNH SAU TUNING " + "="*23)
-    print(df_metrics.to_string(index=False))
-    print("="*79)
-    
-    print(f"\n [BEST MODEL FOUND]: {best_model_name}")
-    print(f" Chi tiết thông số tối ưu: {best_model_obj}\n")
-    
-    return df_metrics
 
 
-def run_modeling_pipeline():
-    """
-    Ý nghĩa xử lý: Hàm điều khiển chính (pipeline) kết nối toàn bộ quá trình 
-                  đọc dữ liệu, trích xuất đặc trưng, huấn luyện và trả về bảng kết quả.
-    """
-    print("[INFO] Bắt đầu quá trình huấn luyện và tối ưu mô hình...")
-    
-    # 1. Định nghĩa các đường dẫn từ cấu hình config (sử dụng định dạng Path mới)
-    processed_data_path = config.COMBINED_BALANCED_PATH
-    vectorizer_save_path = config.MODELS_DIR / 'tfidf_vectorizer.pkl'
-    models_save_directory = config.MODELS_DIR
-    models_save_directory.mkdir(parents=True, exist_ok=True)
-    
-    # 2. Tải dữ liệu
-    df_clean = load_processed_data(processed_data_path)
-    
-    # Đọc đúng cột text và label từ dataset đã xử lý
-    X = df_clean['text'].fillna('').astype(str)
-    y = df_clean['label']
-    
-    # 3. Chia tập dữ liệu Train/Test theo tỷ lệ và mã random đồng nhất toàn nhóm
-    X_train, X_test, y_train, y_test = train_test_split(
-        X, y, 
-        test_size=config.TEST_SIZE, 
-        random_state=config.RANDOM_STATE, 
-        stratify=y
+def train_models(dataset: pd.DataFrame | None = None, sample_size: int | None = None):
+    """Train NB, LR, SVM và trả về model tốt nhất cùng bảng metrics."""
+    if dataset is None:
+        dataset = load_training_data()
+
+    label_counts = dataset["label"].value_counts()
+    if len(label_counts) < 2:
+        raise ValueError("Dataset cần có đủ 2 class label: 0 = not spam, 1 = spam.")
+
+    if sample_size and len(dataset) > sample_size:
+        samples_per_class = max(1, sample_size // len(label_counts))
+        sampled_parts = []
+        for _, group in dataset.groupby("label"):
+            n_samples = min(len(group), samples_per_class)
+            sampled_parts.append(group.sample(n=n_samples, random_state=config.RANDOM_STATE))
+        dataset = pd.concat(sampled_parts, ignore_index=True)
+        dataset = dataset.sample(frac=1, random_state=config.RANDOM_STATE).reset_index(drop=True)
+
+    x_train, x_test, y_train, y_test = train_test_split(
+        dataset["text"],
+        dataset["label"],
+        test_size=config.TEST_SIZE,
+        random_state=config.RANDOM_STATE,
+        stratify=dataset["label"],
     )
-    
-    # 4. Trích xuất đặc trưng TF-IDF
-    X_train_tfidf, X_test_tfidf = extract_tfidf_features(X_train, X_test, vectorizer_save_path)
-    print("[INFO] Trích xuất đặc trưng TF-IDF thành công.")
-    
-    # 5. Huấn luyện + Tuning tham số bằng GridSearchCV (Gồm Naive Bayes, Logistic Regression, Linear SVM)
-    tuned_models = train_and_tune_models(X_train_tfidf, y_train)
-    print("[INFO] Hoàn thành huấn luyện và tối ưu tất cả các mô hình.")
-    
-    # 6. Đánh giá, xuất bảng kết quả metric và lưu trữ mô hình tốt nhất
-    df_metrics = evaluate_predictions(
-        tuned_models, 
-        X_test_tfidf, 
-        y_test, 
-        save_models_dir=models_save_directory
+
+    config.MODELS_DIR.mkdir(parents=True, exist_ok=True)
+    config.REPORTS_DIR.mkdir(parents=True, exist_ok=True)
+
+    trained_models = {}
+    metrics = []
+    prediction_frame = pd.DataFrame({"label": y_test.reset_index(drop=True)})
+
+    for model_name, estimator in MODEL_DEFINITIONS.items():
+        print(f"[INFO] Training {model_name}...")
+        pipeline = make_pipeline(estimator)
+        pipeline.fit(x_train, y_train)
+        y_pred = pipeline.predict(x_test)
+
+        trained_models[model_name] = pipeline
+        metrics.append(calculate_model_metrics(y_test, y_pred, model_name))
+        prediction_frame[model_name] = y_pred
+        joblib.dump(pipeline, config.MODELS_DIR / f"{model_name}_pipeline.joblib")
+
+    metrics_table = pd.DataFrame(metrics).sort_values(["f1_spam", "recall_spam"], ascending=False)
+    best_model_name = str(metrics_table.iloc[0]["model"])
+    best_model = trained_models[best_model_name]
+    joblib.dump(best_model, config.MODELS_DIR / "spam_classifier.joblib")
+
+    metrics_path = config.REPORTS_DIR / "model_metrics.csv"
+    predictions_path = config.REPORTS_DIR / "model_predictions.csv"
+    report_path = config.REPORTS_DIR / "model_train_report.json"
+    metrics_table.to_csv(metrics_path, index=False, encoding="utf-8")
+    prediction_frame.to_csv(predictions_path, index=False, encoding="utf-8")
+    report_path.write_text(
+        json.dumps(
+            {
+                "best_model": best_model_name,
+                "train_rows": int(len(x_train)),
+                "test_rows": int(len(x_test)),
+                "metrics_path": str(metrics_path),
+                "predictions_path": str(predictions_path),
+            },
+            indent=2,
+            ensure_ascii=False,
+        ),
+        encoding="utf-8",
     )
-    
-    return df_metrics
+
+    return best_model_name, best_model, metrics_table, prediction_frame
+
+
+def run_modeling_pipeline(sample_size: int | None = None) -> pd.DataFrame:
+    """Entry point dùng cho main.py hoặc notebook."""
+    best_model_name, _, metrics_table, _ = train_models(sample_size=sample_size)
+    print("\n=== Model comparison ===")
+    print(metrics_table.to_string(index=False))
+    print(f"\nBest model: {best_model_name}")
+    return metrics_table
 
 
 if __name__ == "__main__":

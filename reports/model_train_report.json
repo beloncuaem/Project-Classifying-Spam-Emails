@@ -1,0 +1,7 @@
+{
+  "best_model": "linear_svm",
+  "train_rows": 48000,
+  "test_rows": 12000,
+  "metrics_path": "C:\\Users\\User\\OneDrive - ut.edu.vn\\Documents\\Machine Learning - Trường\\Project-Classifying-Spam-Emails\\reports\\model_metrics.csv",
+  "predictions_path": "C:\\Users\\User\\OneDrive - ut.edu.vn\\Documents\\Machine Learning - Trường\\Project-Classifying-Spam-Emails\\reports\\model_predictions.csv"
+}

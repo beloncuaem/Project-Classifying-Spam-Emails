@@ -1,0 +1,6 @@
+source_name,url,source_type,official_status,usage_in_project,note
+SpamAssassin Public Corpus,https://spamassassin.apache.org/old/publiccorpus/,Official Apache SpamAssassin archive,official,used,"Contains public ham/spam archives used by src/data_loader.py."
+SetFit enron_spam,https://huggingface.co/datasets/SetFit/enron_spam,Hugging Face dataset page,community_hosted_on_huggingface,used,"33.7k labeled ham/spam dataset; downloaded as CSV."
+locuoco 300k spam ham phish,https://huggingface.co/datasets/locuoco/the-biggest-spam-ham-phish-email-dataset-300000,Hugging Face dataset page,community_hosted_on_huggingface,used,"Large labeled text dataset; original phish/spam labels are mapped to spam for binary classification."
+TREC Spam Track,https://trec.nist.gov/data/spam.html,NIST TREC data page,official,reference_only,"Official TREC page for spam corpora; useful if the team wants additional academic spam datasets."
+CMU Enron Email Dataset,https://www.cs.cmu.edu/~enron/,CMU dataset page,official,reference_only,"Official CMU-hosted Enron email dataset; mostly ham/corporate email, needs careful labeling if added."

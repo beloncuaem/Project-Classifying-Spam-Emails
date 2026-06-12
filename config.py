@@ -7,9 +7,13 @@ RAW_DATA_DIR = DATA_DIR / "raw"
 PROCESSED_DATA_DIR = DATA_DIR / "processed"
 REPORTS_DIR = PROJECT_ROOT / "reports"
 MODELS_DIR = PROJECT_ROOT / "models"
+FIGURES_DIR = REPORTS_DIR / "figures"
 
 RANDOM_STATE = 42
 MIN_TEXT_LENGTH = 20
+TEST_SIZE = 0.2
+MAX_FEATURES = 25000
+NGRAM_RANGE = (1, 2)
 
 SPAMASSASSIN_BASE_URL = "https://spamassassin.apache.org/old/publiccorpus"
 SPAMASSASSIN_ARCHIVES = [
@@ -39,5 +43,12 @@ SPAMASSASSIN_LABELED_PATH = PROCESSED_DATA_DIR / "spamassassin_labeled.csv"
 SPAMASSASSIN_BALANCED_PATH = PROCESSED_DATA_DIR / "spamassassin_balanced.csv"
 COMBINED_LABELED_PATH = PROCESSED_DATA_DIR / "combined_labeled.csv"
 COMBINED_BALANCED_PATH = PROCESSED_DATA_DIR / "combined_balanced.csv"
+COMBINED_BALANCED_CLEAN_PATH = PROCESSED_DATA_DIR / "combined_balanced_clean.csv"
 DATASET_REPORT_PATH = REPORTS_DIR / "data_loader_report.json"
+DATA_QUALITY_REPORT_PATH = REPORTS_DIR / "data_quality_report.json"
+DATA_QUALITY_ISSUES_PATH = REPORTS_DIR / "data_quality_issues.csv"
+
+# Backward-compatible aliases for older modules/notebooks.
+DATA_RAW_DIR = RAW_DATA_DIR
+DATA_PROCESSED_DIR = PROCESSED_DATA_DIR
 
