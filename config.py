@@ -11,6 +11,10 @@ MODELS_DIR = PROJECT_ROOT / "models"
 RANDOM_STATE = 42
 MIN_TEXT_LENGTH = 20
 
+MAX_FEATURES = 20000
+NGRAM_RANGE = (1, 2)
+TEST_SIZE = 0.2
+
 SPAMASSASSIN_BASE_URL = "https://spamassassin.apache.org/old/publiccorpus"
 SPAMASSASSIN_ARCHIVES = [
     {"name": "easy_ham", "file_name": "20030228_easy_ham.tar.bz2", "label": 0},
