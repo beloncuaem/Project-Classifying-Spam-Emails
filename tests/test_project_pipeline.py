@@ -9,6 +9,7 @@ Chạy riêng file này:
 
 from __future__ import annotations
 
+import sys
 import tempfile
 import unittest
 from pathlib import Path
@@ -16,6 +17,10 @@ from unittest.mock import patch
 
 import joblib
 import pandas as pd
+
+PROJECT_ROOT = Path(__file__).resolve().parents[1]
+if str(PROJECT_ROOT) not in sys.path:
+    sys.path.insert(0, str(PROJECT_ROOT))
 
 import config
 from src.data_quality import balance_clean_dataset, clean_dataset, find_data_issues, normalize_dataset
