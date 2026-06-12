@@ -162,7 +162,10 @@ class ModelEvaluateTest(unittest.TestCase):
 
 class TextPreprocessTest(unittest.TestCase):
     def test_clean_email_text_removes_html_and_normalizes_entities(self) -> None:
-        text = "<html><body>Hello! Visit https://example.com or email test@example.com for 100% FREE.</body></html>"
+        text = (
+            "<html><body>Hello! Visit https://spamassassin.apache.org/old/publiccorpus/ "
+            "or email trec@nist.gov for 100% FREE.</body></html>"
+        )
         cleaned = clean_email_text(text)
 
         self.assertNotIn("<html>", cleaned)
@@ -174,7 +177,14 @@ class TextPreprocessTest(unittest.TestCase):
         self.assertIn("free", cleaned)
 
     def test_process_dataframe_adds_clean_text_column(self) -> None:
-        frame = pd.DataFrame({"text": ["Hi team, meeting at 10.", "FREE prize at http://spam.example"]})
+        frame = pd.DataFrame(
+            {
+                "text": [
+                    "Hi team, meeting at 10.",
+                    "Review official spam corpus at https://trec.nist.gov/data/spam.html",
+                ]
+            }
+        )
         processed = process_dataframe(frame)
 
         self.assertIn("clean_text", processed.columns)

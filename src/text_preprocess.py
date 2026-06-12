@@ -179,8 +179,8 @@ def clean_data(frame: pd.DataFrame, text_column: str = "text") -> pd.DataFrame:
 def example_unit_test() -> None:
     """Demo nhanh khi chạy trực tiếp file này."""
     samples = [
-        "<html><body>Hi team! Visit https://example.com or email test@example.com</body></html>",
-        "FREE money!!! Click http://spam.example now and claim prize 1000",
+        "<html><body>Hi team! Visit https://www.cs.cmu.edu/~enron/ for the CMU Enron dataset</body></html>",
+        "Review the official spam corpus at https://spamassassin.apache.org/old/publiccorpus/",
     ]
     frame = pd.DataFrame({"text": samples})
     print(process_dataframe(frame))
