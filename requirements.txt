@@ -29,3 +29,13 @@ tabulate>=0.9.0
 # ==============================================================================
 jupyter>=1.0.0
 ipykernel>=6.29.0
+
+# ==============================================================================
+# NHOM 6: GIAO DIEN WEB LOCAL (WEB UI)
+# ==============================================================================
+Flask>=3.0.0
+
+# Gmail OAuth optional, chi can cai neu muon doc Gmail bang Gmail API:
+# google-api-python-client>=2.130.0
+# google-auth-httplib2>=0.2.0
+# google-auth-oauthlib>=1.2.0

@@ -1,0 +1,8 @@
+Subject: Class announcement to all students
+
+Dear students,
+
+This email is sent to the whole class to remind everyone about the final project deadline.
+Please submit your report, source code, and slides before Friday night.
+
+This is an official class announcement, not an advertisement.
