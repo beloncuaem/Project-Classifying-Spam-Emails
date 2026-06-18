@@ -22,7 +22,7 @@ class SpamCheckerUiTest(unittest.TestCase):
 
         self.assertEqual(response.status_code, 200)
         self.assertIn(b"Spam Email Checker", response.data)
-        self.assertIn(b"models/spam_classifier.joblib", response.data)
+        self.assertIn("Nhập email".encode("utf-8"), response.data)
 
     def test_health_endpoint_reports_model(self) -> None:
         response = self.client.get("/health")
@@ -31,6 +31,7 @@ class SpamCheckerUiTest(unittest.TestCase):
         self.assertEqual(response.status_code, 200)
         self.assertEqual(payload["status"], "ok")
         self.assertTrue(payload["model_exists"])
+        self.assertNotIn("gmail", payload)
 
     def test_api_predicts_spam_email(self) -> None:
         response = self.client.post("/api/check", json={"email_text": SPAM_EMAIL})
@@ -41,7 +42,8 @@ class SpamCheckerUiTest(unittest.TestCase):
         self.assertGreaterEqual(payload["spam_score"], 0.0)
         self.assertLessEqual(payload["spam_score"], 1.0)
         self.assertIn("evidence", payload)
-        self.assertIn("model_metric", payload["evidence"])
+        self.assertIn("summary", payload["evidence"])
+        self.assertNotIn("model_path", payload["evidence"])
         self.assertTrue(payload["evidence"]["top_terms"])
 
     def test_api_predicts_not_spam_email(self) -> None:
@@ -87,13 +89,6 @@ class SpamCheckerUiTest(unittest.TestCase):
 
         self.assertEqual(response.status_code, 400)
         self.assertIn("error", payload)
-
-    def test_gmail_page_does_not_crash_without_oauth(self) -> None:
-        response = self.client.post("/gmail/check", data={"gmail_message": "fake-message-id"})
-
-        self.assertEqual(response.status_code, 200)
-        self.assertIn("Gmail", response.get_data(as_text=True))
-
 
 if __name__ == "__main__":
     unittest.main(verbosity=2)

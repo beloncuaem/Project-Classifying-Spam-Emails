@@ -8,7 +8,6 @@ from typing import Any
 from flask import Flask, jsonify, render_template, request
 
 from src.explain_prediction import build_prediction_evidence
-from src.gmail_reader import gmail_setup_status, read_gmail_message
 from src.predict import DEFAULT_MODEL_PATH, load_pipeline, predict_email
 
 
@@ -52,7 +51,7 @@ def make_prediction_response(text: str, model, source: str = "manual") -> dict[s
 
     result = predict_email(clean_text, model=model)
     result["input_source"] = source
-    result["evidence"] = build_prediction_evidence(model, result, model_path=DEFAULT_MODEL_PATH)
+    result["evidence"] = build_prediction_evidence(model, result)
     return result
 
 
@@ -63,7 +62,7 @@ def create_app() -> Flask:
 
     @app.get("/")
     def index():
-        return render_template("spam_checker.html", gmail_status=gmail_setup_status())
+        return render_template("spam_checker.html")
 
     @app.post("/")
     def check_email_page():
@@ -90,7 +89,6 @@ def create_app() -> Flask:
             email_text=email_text,
             result=result,
             error=error,
-            gmail_status=gmail_setup_status(),
         )
 
     @app.post("/api/check")
@@ -116,35 +114,12 @@ def create_app() -> Flask:
         except Exception as exc:
             return jsonify({"error": str(exc)}), 400
 
-    @app.post("/gmail/check")
-    def check_gmail_page():
-        model = app.config["MODEL"]
-        gmail_input = request.form.get("gmail_message", "")
-        result = None
-        error = None
-
-        try:
-            gmail_message = read_gmail_message(gmail_input)
-            result = make_prediction_response(gmail_message["text"], model, source=f"gmail:{gmail_message['message_id']}")
-        except Exception as exc:
-            error = str(exc)
-
-        return render_template(
-            "spam_checker.html",
-            gmail_input=gmail_input,
-            result=result,
-            error=error,
-            gmail_status=gmail_setup_status(),
-        )
-
     @app.get("/health")
     def health():
         return jsonify(
             {
                 "status": "ok",
-                "model_path": str(DEFAULT_MODEL_PATH),
                 "model_exists": DEFAULT_MODEL_PATH.exists(),
-                "gmail": gmail_setup_status(),
             }
         )
 

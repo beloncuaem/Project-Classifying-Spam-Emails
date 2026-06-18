@@ -11,11 +11,7 @@
     <header class="topbar">
       <div>
         <h1>Spam Email Checker</h1>
-        <p>Kiểm tra email bằng model đã train trong <code>models/spam_classifier.joblib</code>.</p>
-      </div>
-      <div class="model-card">
-        <span>Model</span>
-        <strong>TF-IDF + Linear SVM</strong>
+        <p>Dán nội dung email hoặc upload file <code>.txt/.eml</code> để kiểm tra spam.</p>
       </div>
     </header>
 
@@ -48,29 +44,17 @@
 
           <div class="evidence">
             <h3>Dẫn chứng</h3>
-            <p>{{ result.evidence.decision_basis }}</p>
-            <ul>
-              <li>Nguồn model: <code>{{ result.evidence.model_path }}</code></li>
-              <li>Model tốt nhất: <code>{{ result.evidence.model_name }}</code></li>
-              <li>Nguồn input: <code>{{ result.input_source }}</code></li>
-            </ul>
-
-            {% if result.evidence.model_metric %}
-              <div class="metrics">
-                <div><span>Accuracy</span><strong>{{ "%.4f"|format(result.evidence.model_metric.accuracy) }}</strong></div>
-                <div><span>Precision spam</span><strong>{{ "%.4f"|format(result.evidence.model_metric.precision_spam) }}</strong></div>
-                <div><span>Recall spam</span><strong>{{ "%.4f"|format(result.evidence.model_metric.recall_spam) }}</strong></div>
-                <div><span>F1 spam</span><strong>{{ "%.4f"|format(result.evidence.model_metric.f1_spam) }}</strong></div>
-              </div>
-            {% endif %}
+            <p>{{ result.evidence.summary }}</p>
 
             {% if result.evidence.top_terms %}
-              <h3>Term ảnh hưởng</h3>
+              <h3>Các từ/cụm từ ảnh hưởng</h3>
               <div class="terms">
                 {% for item in result.evidence.top_terms %}
-                  <span title="weight={{ item.weight }}">{{ item.term }} <em>{{ item.supports }}</em></span>
+                  <span title="weight={{ item.weight }}">{{ item.term }}</span>
                 {% endfor %}
               </div>
+            {% else %}
+              <p class="muted">Email này không có từ/cụm từ nổi bật trong tập đặc trưng của model.</p>
             {% endif %}
 
             <details>
@@ -82,19 +66,6 @@
           <p class="muted">Kết quả sẽ hiển thị sau khi bạn nhập email và bấm kiểm tra.</p>
         {% endif %}
       </div>
-    </section>
-
-    <section class="panel gmail-panel">
-      <div>
-        <h2>Gmail tùy chọn</h2>
-        <p>Không thể đọc trực tiếp link Gmail cá nhân nếu chưa cấp OAuth. Nếu đã có <code>credentials.json</code>, có thể nhập Gmail message id để thử đọc bằng Gmail API.</p>
-        <p class="muted">Trạng thái: {{ "đã sẵn sàng" if gmail_status.ready else "chưa cấu hình OAuth" }}</p>
-      </div>
-      <form method="post" action="/gmail/check">
-        <label for="gmail_message">Gmail message id hoặc link</label>
-        <input id="gmail_message" name="gmail_message" type="text" value="{{ gmail_input or '' }}" placeholder="Ví dụ: message id từ Gmail API">
-        <button type="submit">Thử đọc Gmail</button>
-      </form>
     </section>
   </main>
 </body>
