@@ -1,0 +1,8 @@
+{
+  "source_note": "Fallback raw SpamAssassin, then cached for future runs",
+  "input_path": null,
+  "output_path": "C:\\Users\\ADMIN\\Desktop\\lab1_updated\\Project-Classifying-Spam-Emails-main\\reports\\preprocessing_preview.csv",
+  "n_rows_input": 1000,
+  "n_rows_output": 1000,
+  "text_column": "text"
+}
