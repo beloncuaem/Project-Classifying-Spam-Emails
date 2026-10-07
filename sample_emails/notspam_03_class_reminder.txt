@@ -1,0 +1,8 @@
+Subject: Reminder for tomorrow class
+
+Dear class,
+
+This is a reminder that the Machine Learning presentation will start at 8 AM tomorrow.
+Each group should prepare the source code, dataset explanation, model comparison, and demo screen.
+
+Please arrive early to set up your laptop.

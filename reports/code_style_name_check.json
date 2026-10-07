@@ -1,0 +1,23 @@
+{
+  "rule_summary": {
+    "files": "ten_file.py dung chu thuong va dau gach duoi",
+    "functions_variables": "snake_case",
+    "constants": "UPPER_CASE",
+    "classes": "PascalCase",
+    "labels": "0 = not spam/ham, 1 = spam"
+  },
+  "files_checked": [
+    "config.py",
+    "main.py",
+    "src/__init__.py",
+    "src/data_loader.py",
+    "src/data_quality.py",
+    "src/feature_engineering.py",
+    "src/model_evaluate.py",
+    "src/model_train.py",
+    "src/predict.py",
+    "src/text_preprocess.py",
+    "src/utils.py"
+  ],
+  "naming_issues": []
+}

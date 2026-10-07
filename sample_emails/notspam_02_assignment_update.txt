@@ -1,0 +1,8 @@
+Subject: Machine Learning assignment update
+
+Hello everyone,
+
+I uploaded the latest notebook and model evaluation charts to the shared folder.
+Please check the confusion matrix section and let me know if any figure needs to be replaced before submission.
+
+Best regards.

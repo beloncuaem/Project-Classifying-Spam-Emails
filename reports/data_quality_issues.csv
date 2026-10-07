@@ -1,0 +1,1185 @@
+issue,row_index,source,file_name,label,label_name,text
+short_text,50,locuoco_big_spam_ham_phish_300k,0000.parquet,0,ham,"phelim ,
+fyi
+vince"
+short_text,453,locuoco_big_spam_ham_phish_300k,0000.parquet,0,ham,kevin kindall
+short_text,497,locuoco_big_spam_ham_phish_300k,0001.parquet,0,ham,look
+short_text,521,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,buenos noches g'bye
+short_text,587,locuoco_big_spam_ham_phish_300k,0001.parquet,0,ham,go new york tonight
+short_text,1002,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,hi try nothing
+short_text,1418,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,basvsehp jy e snd
+short_text,1434,locuoco_big_spam_ham_phish_300k,0000.parquet,0,ham,dont like beth
+short_text,1482,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,maxine
+short_text,1563,locuoco_big_spam_ham_phish_300k,0000.parquet,0,ham,hurricane elana
+short_text,1673,locuoco_big_spam_ham_phish_300k,0000.parquet,0,ham,hmm think lying
+short_text,1777,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,escapelong nwoody
+short_text,1780,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,bitnet
+short_text,1916,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,lakjsdf
+short_text,2179,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,aurea bertrand
+short_text,2223,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,charset default
+short_text,2247,locuoco_big_spam_ham_phish_300k,0001.parquet,1,spam,ffva
+short_text,2328,locuoco_big_spam_ham_phish_300k,0000.parquet,0,ham,terri said looking
+short_text,2399,locuoco_big_spam_ham_phish_300k,0000.parquet,0,ham,baby joking
+short_text,2447,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,http gaj hensi com
+short_text,3647,locuoco_big_spam_ham_phish_300k,0000.parquet,0,ham,the power of beer
+short_text,3825,locuoco_big_spam_ham_phish_300k,0001.parquet,0,ham,that would be great
+short_text,4744,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,cztescapenumbergy
+short_text,5036,locuoco_big_spam_ham_phish_300k,0001.parquet,1,spam,hola khuda hafiz
+short_text,5195,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,dagger move me
+short_text,5549,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,v
+short_text,5563,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,escapenumber
+short_text,5875,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,good morning kuna
+short_text,6099,setfit_enron_spam,setfit_enron_spam.csv,0,ham,password - fast
+short_text,6370,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,- - >
+short_text,6398,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,1
+short_text,6437,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,xz width 0 height 0
+short_text,6733,locuoco_big_spam_ham_phish_300k,0000.parquet,0,ham,mark frevert
+short_text,7995,locuoco_big_spam_ham_phish_300k,0000.parquet,0,ham,"-
+- hpl - aug . xls"
+short_text,8121,locuoco_big_spam_ham_phish_300k,0001.parquet,1,spam,i a m lsy
+short_text,8148,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,dahlias
+short_text,8317,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,groovy bin i kah
+short_text,8473,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,vh nkvvc
+short_text,8607,locuoco_big_spam_ham_phish_300k,0001.parquet,1,spam,font xqfcqmai t
+short_text,8715,locuoco_big_spam_ham_phish_300k,0000.parquet,0,ham,are you here
+short_text,9115,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,go away
+short_text,9192,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,hello huy kwe che
+short_text,9533,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,"well well !
+baidh"
+short_text,9589,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,sd wltcxumo
+short_text,9610,locuoco_big_spam_ham_phish_300k,0000.parquet,0,ham,closing ticket
+short_text,9832,locuoco_big_spam_ham_phish_300k,0001.parquet,1,spam,annette move
+short_text,9866,locuoco_big_spam_ham_phish_300k,0000.parquet,0,ham,from their website
+short_text,10505,locuoco_big_spam_ham_phish_300k,0000.parquet,0,ham,joe
+short_text,10793,locuoco_big_spam_ham_phish_300k,0001.parquet,1,spam,ghzbpjgia ltm pzq h
+short_text,10897,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,hej ar essaghat
+short_text,11241,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,xatzbhu bxnjt
+short_text,11879,locuoco_big_spam_ham_phish_300k,0000.parquet,0,ham,oh my god haha
+short_text,11931,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,dhcabof sypmrk
+short_text,12096,locuoco_big_spam_ham_phish_300k,0001.parquet,1,spam,ekblgkc
+short_text,12388,locuoco_big_spam_ham_phish_300k,0001.parquet,1,spam,dacia bucklin
+short_text,12445,locuoco_big_spam_ham_phish_300k,0000.parquet,0,ham,whats plan
+short_text,12461,locuoco_big_spam_ham_phish_300k,0001.parquet,1,spam,top morning sahha
+short_text,12640,setfit_enron_spam,setfit_enron_spam.csv,0,ham,how bout this one .
+short_text,12995,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,mkldtynm
+short_text,13566,locuoco_big_spam_ham_phish_300k,0000.parquet,0,ham,please review patch
+short_text,14519,locuoco_big_spam_ham_phish_300k,0000.parquet,0,ham,as promised
+short_text,14805,locuoco_big_spam_ham_phish_300k,0000.parquet,0,ham,phelim fyi vince
+short_text,15434,locuoco_big_spam_ham_phish_300k,0000.parquet,0,ham,unsubscribe please
+short_text,15517,locuoco_big_spam_ham_phish_300k,0000.parquet,0,ham,stuff meeting
+short_text,15757,locuoco_big_spam_ham_phish_300k,0000.parquet,0,ham,joe escapenumber
+short_text,15963,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,tips
+short_text,16011,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,html
+short_text,16205,locuoco_big_spam_ham_phish_300k,0000.parquet,0,ham,thanks vince .
+short_text,17023,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,nwkplxh
+short_text,17027,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,tuanunciogratis com
+short_text,17272,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,kande tne tiu
+short_text,17604,locuoco_big_spam_ham_phish_300k,0000.parquet,0,ham,good one .
+short_text,17622,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,ds
+short_text,17951,locuoco_big_spam_ham_phish_300k,0000.parquet,0,ham,please post .
+short_text,18051,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,f iwfbpau t ngny
+short_text,18240,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,adieu wog maho
+short_text,18253,locuoco_big_spam_ham_phish_300k,0000.parquet,0,ham,escapenonetext
+short_text,18254,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,ikxm ymuhdxjw
+short_text,18837,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,pcklztnf v p nc
+short_text,19236,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,howre namaskaram
+short_text,19609,locuoco_big_spam_ham_phish_300k,0001.parquet,0,ham,fixed cp right sean
+short_text,19977,locuoco_big_spam_ham_phish_300k,0001.parquet,1,spam,pardon tseveryn
+short_text,20015,locuoco_big_spam_ham_phish_300k,0001.parquet,1,spam,« ü±j£°
+short_text,20173,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,geronimo panamilit
+short_text,20259,locuoco_big_spam_ham_phish_300k,0000.parquet,0,ham,970 - 240 - 6206
+short_text,20448,locuoco_big_spam_ham_phish_300k,0001.parquet,1,spam,dzxqxv yp dgq
+short_text,20494,locuoco_big_spam_ham_phish_300k,0000.parquet,0,ham,sorry so late
+short_text,20774,locuoco_big_spam_ham_phish_300k,0000.parquet,0,ham,frosty the snowman
+short_text,20779,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,un 5 u 6
+short_text,20848,locuoco_big_spam_ham_phish_300k,0000.parquet,0,ham,"70422
+92754"
+short_text,21445,setfit_enron_spam,setfit_enron_spam.csv,1,spam,hi
+short_text,21759,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,jsz î¯ ¿¯ µç
+short_text,21799,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,arly buczek
+short_text,22000,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,g pyymo
+short_text,22797,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,jif
+short_text,23096,locuoco_big_spam_ham_phish_300k,0000.parquet,0,ham,hey you rock jess
+short_text,23152,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,well well baidh
+short_text,23847,locuoco_big_spam_ham_phish_300k,0000.parquet,0,ham,thats write letter
+short_text,23927,locuoco_big_spam_ham_phish_300k,0000.parquet,0,ham,mark frevert ?
+short_text,23986,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,vgbdjksobay
+short_text,24013,locuoco_big_spam_ham_phish_300k,0000.parquet,0,ham,per your request .
+short_text,24031,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,nsmzl j yra r
+short_text,24172,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,td qwyieimob
+short_text,24311,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,bjwfxfd arcdlior
+short_text,24547,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,ðï à ¡ ±
+short_text,24614,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,mailien soft clean
+short_text,24661,locuoco_big_spam_ham_phish_300k,0000.parquet,0,ham,gobble gobble
+short_text,24672,locuoco_big_spam_ham_phish_300k,0000.parquet,0,ham,here ' s the latest
+short_text,25343,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,buenos noches gbye
+short_text,25361,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,want a rolex watch
+short_text,26013,locuoco_big_spam_ham_phish_300k,0001.parquet,0,ham,brad gerry are here
+short_text,26294,setfit_enron_spam,setfit_enron_spam.csv,0,ham,gymnastics pictures
+short_text,26581,locuoco_big_spam_ham_phish_300k,0000.parquet,0,ham,hpl aug xls
+short_text,26763,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,rcfwwt
+short_text,26868,locuoco_big_spam_ham_phish_300k,0000.parquet,0,ham,here it is
+short_text,27356,locuoco_big_spam_ham_phish_300k,0001.parquet,0,ham,bet mike mother
+short_text,27754,locuoco_big_spam_ham_phish_300k,0000.parquet,0,ham,ready to go
+short_text,28028,locuoco_big_spam_ham_phish_300k,0000.parquet,0,ham,many thanks gillian
+short_text,28175,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,whats ge set
+short_text,28472,locuoco_big_spam_ham_phish_300k,0000.parquet,0,ham,gas accounting doc
+short_text,28993,locuoco_big_spam_ham_phish_300k,0000.parquet,0,ham,joe linhart
+short_text,29421,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,good evening iniuno
+short_text,29488,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,nbsp
+short_text,29533,locuoco_big_spam_ham_phish_300k,0001.parquet,1,spam,wqoxx kxbjth
+short_text,29614,locuoco_big_spam_ham_phish_300k,0000.parquet,0,ham,updates debra
+short_text,29635,locuoco_big_spam_ham_phish_300k,0000.parquet,0,ham,ready go
+short_text,29680,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,groovy bin kah
+short_text,29800,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,take that te'yoos
+short_text,29931,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,vjeod
+short_text,29960,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,franc
+short_text,30065,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,l bhjo iaet nw u
+short_text,30238,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,rawmnv
+short_text,30354,locuoco_big_spam_ham_phish_300k,0000.parquet,0,ham,just testing
+short_text,30553,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,hola tok pisin
+short_text,30676,locuoco_big_spam_ham_phish_300k,0001.parquet,1,spam,aaaaaaa hfolu dz iz
+short_text,30965,locuoco_big_spam_ham_phish_300k,0001.parquet,1,spam,uvyrfgm tqi
+short_text,31155,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,c ko yslc
+short_text,31871,locuoco_big_spam_ham_phish_300k,0001.parquet,1,spam,pm rylk
+short_text,31991,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,dpxa
+short_text,32430,locuoco_big_spam_ham_phish_300k,0000.parquet,0,ham,- 2000 ballot . doc
+short_text,32972,setfit_enron_spam,setfit_enron_spam.csv,1,spam,no - cost xbox
+short_text,33261,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,njtob beeaai
+short_text,33624,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,jeromy
+short_text,33731,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,"well well !
+cuidate"
+short_text,33805,locuoco_big_spam_ham_phish_300k,0001.parquet,1,spam,hej bulya yo
+short_text,33873,locuoco_big_spam_ham_phish_300k,0000.parquet,0,ham,like
+short_text,34049,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,aaaaaaa ljlrm jy
+short_text,34507,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,"hello there !
+sode"
+short_text,34670,locuoco_big_spam_ham_phish_300k,0000.parquet,0,ham,pics natalie cheri
+short_text,34913,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,boo mus zoo
+short_text,35179,locuoco_big_spam_ham_phish_300k,0000.parquet,0,ham,isnt cutie pie
+short_text,35652,locuoco_big_spam_ham_phish_300k,0001.parquet,1,spam,adieu jilkob'a
+short_text,35734,locuoco_big_spam_ham_phish_300k,0000.parquet,0,ham,"sold !
+derek"
+short_text,35961,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,f iwfbpau ngny
+short_text,36815,setfit_enron_spam,setfit_enron_spam.csv,1,spam,re [ 14 ]
+short_text,36907,locuoco_big_spam_ham_phish_300k,0001.parquet,1,spam,n wymi xs nyg utgh
+short_text,37437,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,½ð°ý§a¬o½ö
+short_text,37471,locuoco_big_spam_ham_phish_300k,0001.parquet,0,ham,frosty snowman
+short_text,37591,locuoco_big_spam_ham_phish_300k,0001.parquet,1,spam,nkcbhg nzcept
+short_text,37968,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,jtnertqq gm
+short_text,38651,locuoco_big_spam_ham_phish_300k,0000.parquet,0,ham,red rock
+short_text,40354,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,buenos dias doskoro
+short_text,40807,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,geronimo sai sere
+short_text,40826,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,paliourg bye bye
+short_text,41150,locuoco_big_spam_ham_phish_300k,0000.parquet,0,ham,worth look
+short_text,42000,locuoco_big_spam_ham_phish_300k,0000.parquet,0,ham,thoughts
+short_text,42071,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,td td aescapenumber
+short_text,42772,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,hello there sode
+short_text,42780,locuoco_big_spam_ham_phish_300k,0000.parquet,0,ham,heather mathis
+short_text,42787,locuoco_big_spam_ham_phish_300k,0001.parquet,1,spam,crista bokij
+short_text,43123,locuoco_big_spam_ham_phish_300k,0001.parquet,1,spam,td olgabmppc
+short_text,43383,locuoco_big_spam_ham_phish_300k,0001.parquet,1,spam,aqzbr cbbpn qsf f
+short_text,43499,locuoco_big_spam_ham_phish_300k,0000.parquet,0,ham,need copy
+short_text,43617,setfit_enron_spam,setfit_enron_spam.csv,1,spam,re : clement hassan
+short_text,43748,locuoco_big_spam_ham_phish_300k,0001.parquet,1,spam,td td td td
+short_text,43768,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,b dl uvqaxoo
+short_text,43926,setfit_enron_spam,setfit_enron_spam.csv,1,spam,1 1
+short_text,44142,locuoco_big_spam_ham_phish_300k,0001.parquet,0,ham,missed good oprah
+short_text,44403,locuoco_big_spam_ham_phish_300k,0001.parquet,1,spam,whats good jaaw
+short_text,44536,setfit_enron_spam,setfit_enron_spam.csv,1,spam,re [ 2 ] :
+short_text,45488,locuoco_big_spam_ham_phish_300k,0001.parquet,1,spam,know face kaakehaan
+short_text,45651,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,gbhzivjwl
+short_text,45770,locuoco_big_spam_ham_phish_300k,0000.parquet,0,ham,b
+short_text,46361,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,hi soul mate
+short_text,46615,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,"good day .
+adiu"
+short_text,46756,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,tenaebeoheg fwz e
+short_text,47118,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,"buenos dias !
+aloha"
+short_text,47403,locuoco_big_spam_ham_phish_300k,0001.parquet,0,ham,get dr bob week
+short_text,47460,locuoco_big_spam_ham_phish_300k,0001.parquet,1,spam,wcvvrqvulnl
+short_text,47717,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,b bdiwjuslv
+short_text,47743,locuoco_big_spam_ham_phish_300k,0000.parquet,0,ham,risk management doc
+short_text,47788,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,goodbye
+short_text,48569,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,angelozzi dont like
+short_text,49189,locuoco_big_spam_ham_phish_300k,0001.parquet,1,spam,s nsmzl j yra r
+short_text,49494,locuoco_big_spam_ham_phish_300k,0001.parquet,1,spam,w thux
+short_text,50076,locuoco_big_spam_ham_phish_300k,0000.parquet,0,ham,pardner
+short_text,50377,locuoco_big_spam_ham_phish_300k,0000.parquet,0,ham,cw see attached
+short_text,50771,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,would would yokwe
+short_text,51272,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,kansas
+short_text,51392,locuoco_big_spam_ham_phish_300k,0000.parquet,0,ham,call get sec
+short_text,51542,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,tn qixcq rd
+short_text,51581,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,http taa nepel com
+short_text,51714,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,puwpfbu
+short_text,52085,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,available
+short_text,52167,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,kg o
+short_text,52400,locuoco_big_spam_ham_phish_300k,0000.parquet,0,ham,done
+short_text,52817,locuoco_big_spam_ham_phish_300k,0000.parquet,0,ham,nice night
+short_text,52827,locuoco_big_spam_ham_phish_300k,0000.parquet,0,ham,starting figure
+short_text,53277,locuoco_big_spam_ham_phish_300k,0000.parquet,0,ham,276366
+short_text,53460,locuoco_big_spam_ham_phish_300k,0001.parquet,1,spam,font xqfcqmai
+short_text,53548,locuoco_big_spam_ham_phish_300k,0000.parquet,0,ham,as promised . . . .
+short_text,53691,locuoco_big_spam_ham_phish_300k,0000.parquet,0,ham,see attached files
+short_text,53849,locuoco_big_spam_ham_phish_300k,0001.parquet,0,ham,love
+short_text,54083,locuoco_big_spam_ham_phish_300k,0000.parquet,0,ham,revised quantum
+short_text,54092,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,ofxeej ypojx rq
+short_text,54099,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,nehru
+short_text,54417,locuoco_big_spam_ham_phish_300k,0001.parquet,0,ham,go
+short_text,54503,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,td td td
+short_text,54621,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,br ur ksoxste
+short_text,54830,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,name
+short_text,54838,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,hello caw
+short_text,55391,locuoco_big_spam_ham_phish_300k,0000.parquet,0,ham,new additions .
+short_text,55498,locuoco_big_spam_ham_phish_300k,0000.parquet,0,ham,nice picture !
+short_text,55815,locuoco_big_spam_ham_phish_300k,0001.parquet,0,ham,hey dont forget
+short_text,55831,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,m w thux
+short_text,55935,locuoco_big_spam_ham_phish_300k,0000.parquet,0,ham,"got it .
+stuart"
+short_text,56252,locuoco_big_spam_ham_phish_300k,0001.parquet,0,ham,blessed day
+short_text,56497,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,p
+short_text,57114,locuoco_big_spam_ham_phish_300k,0001.parquet,1,spam,purport
+short_text,57268,locuoco_big_spam_ham_phish_300k,0000.parquet,0,ham,dork
+short_text,57712,locuoco_big_spam_ham_phish_300k,0001.parquet,0,ham,amy big ear
+short_text,57876,locuoco_big_spam_ham_phish_300k,0000.parquet,0,ham,sent mark muller
+short_text,58025,setfit_enron_spam,setfit_enron_spam.csv,0,ham,geir ' s goals )
+short_text,58411,locuoco_big_spam_ham_phish_300k,0001.parquet,1,spam,hi vidaaya
+short_text,58796,locuoco_big_spam_ham_phish_300k,0001.parquet,0,ham,are you gone yet
+short_text,58866,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,"shaquana
+bye : - )"
+short_text,59084,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,slodb ctd rwv
+short_text,59386,locuoco_big_spam_ham_phish_300k,0000.parquet,0,ham,congrads ! ! ! !
+short_text,59516,locuoco_big_spam_ham_phish_300k,0000.parquet,0,ham,harry still alive
+short_text,59880,locuoco_big_spam_ham_phish_300k,0001.parquet,1,spam,hey baby ma'uk rae
+short_text,59930,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,ready escapelong
+short_text,60718,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,r htgi q b
+short_text,61889,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,please remove me
+short_text,62062,locuoco_big_spam_ham_phish_300k,0000.parquet,0,ham,thank you bernie
+short_text,62119,locuoco_big_spam_ham_phish_300k,0000.parquet,0,ham,- hplo 916 . xls
+short_text,62130,locuoco_big_spam_ham_phish_300k,0000.parquet,0,ham,westpricesforrita
+short_text,62338,locuoco_big_spam_ham_phish_300k,0000.parquet,0,ham,gone yet
+short_text,62366,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,nbs p
+short_text,62496,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,guten tag babay
+short_text,62688,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,¬ý¤£¨ì¹ï½ð«ö¦¹¶i¤j
+short_text,62850,locuoco_big_spam_ham_phish_300k,0001.parquet,1,spam,ave dong maber
+short_text,62948,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,gcm
+short_text,63244,locuoco_big_spam_ham_phish_300k,0000.parquet,0,ham,youre driving crazy
+short_text,63484,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,click to order r me
+short_text,63485,locuoco_big_spam_ham_phish_300k,0001.parquet,1,spam,dwxvcqzfykf bkfl
+short_text,63608,locuoco_big_spam_ham_phish_300k,0000.parquet,0,ham,requested
+short_text,63730,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,tid znpuqzk htf wj
+short_text,63732,locuoco_big_spam_ham_phish_300k,0001.parquet,1,spam,q
+short_text,63873,locuoco_big_spam_ham_phish_300k,0001.parquet,1,spam,slim
+short_text,63931,locuoco_big_spam_ham_phish_300k,0000.parquet,0,ham,you're lying
+short_text,63957,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,http zzw afeet com
+short_text,63996,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,jcsv dth vkkzef
+short_text,64153,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,"please
+remove me"
+short_text,64386,locuoco_big_spam_ham_phish_300k,0000.parquet,0,ham,mean
+short_text,64503,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,aw p
+short_text,64628,locuoco_big_spam_ham_phish_300k,0001.parquet,0,ham,loves baby
+short_text,64780,locuoco_big_spam_ham_phish_300k,0000.parquet,0,ham,count me in tam
+short_text,65048,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,tl get 200 free
+short_text,65054,locuoco_big_spam_ham_phish_300k,0000.parquet,0,ham,go ac
+short_text,65509,setfit_enron_spam,setfit_enron_spam.csv,1,spam,hi here
+short_text,65585,locuoco_big_spam_ham_phish_300k,0001.parquet,1,spam,jpow z
+short_text,65971,locuoco_big_spam_ham_phish_300k,0000.parquet,0,ham,eric bass message
+short_text,66000,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,w ser qifng
+short_text,66747,locuoco_big_spam_ham_phish_300k,0001.parquet,0,ham,here we go
+short_text,67095,locuoco_big_spam_ham_phish_300k,0001.parquet,1,spam,i rfcmd i
+short_text,67607,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,cp co vmqvnntnmj
+short_text,67884,locuoco_big_spam_ham_phish_300k,0000.parquet,0,ham,paul choi
+short_text,67886,locuoco_big_spam_ham_phish_300k,0000.parquet,0,ham,are you ready to go
+short_text,67992,locuoco_big_spam_ham_phish_300k,0001.parquet,1,spam,hows tricks nipa ia
+short_text,68005,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,shtvpsdscwkzupqiq
+short_text,68204,locuoco_big_spam_ham_phish_300k,0000.parquet,0,ham,please post
+short_text,68531,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,t azldj ebom zve e
+short_text,68967,locuoco_big_spam_ham_phish_300k,0000.parquet,0,ham,priceless
+short_text,68979,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,nceflzurwd r
+short_text,69274,locuoco_big_spam_ham_phish_300k,0000.parquet,0,ham,brad
+short_text,69340,locuoco_big_spam_ham_phish_300k,0000.parquet,0,ham,thanks
+short_text,69448,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,zhyv b lsvs i mf a
+short_text,69846,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,u type ew tlmbox
+short_text,69908,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,yrssuvqndtl pfqa
+short_text,70089,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,td ciuxav
+short_text,70170,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,untitled document
+short_text,71332,locuoco_big_spam_ham_phish_300k,0000.parquet,0,ham,ya think
+short_text,71465,locuoco_big_spam_ham_phish_300k,0000.parquet,0,ham,this is funny
+short_text,71517,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,ave fenynm ual
+short_text,71713,locuoco_big_spam_ham_phish_300k,0000.parquet,0,ham,awesome jeff golden
+short_text,71967,locuoco_big_spam_ham_phish_300k,0000.parquet,0,ham,plenty jobs dallas
+short_text,71999,locuoco_big_spam_ham_phish_300k,0001.parquet,1,spam,excuse ciao
+short_text,72679,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,adf
+short_text,73155,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,dnvvkkkxrd inl oo
+short_text,73296,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,buenos tardes adios
+short_text,73512,locuoco_big_spam_ham_phish_300k,0000.parquet,0,ham,portland promo doc
+short_text,74217,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,sgsdqaswywo
+short_text,74415,locuoco_big_spam_ham_phish_300k,0001.parquet,1,spam,wqhl
+short_text,74511,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,bnx j dxepdb ly b
+short_text,74688,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,tomorrow escapelong
+short_text,75245,locuoco_big_spam_ham_phish_300k,0001.parquet,0,ham,thank you jp
+short_text,75513,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,bz cz c
+short_text,75806,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,elaastic§a¦n ¦¬¨ì
+short_text,76058,locuoco_big_spam_ham_phish_300k,0000.parquet,0,ham,document attached
+short_text,76338,locuoco_big_spam_ham_phish_300k,0001.parquet,0,ham,curve name pjm icap
+short_text,76387,locuoco_big_spam_ham_phish_300k,0000.parquet,0,ham,thanks dutch
+short_text,76452,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,gehsna
+short_text,77026,locuoco_big_spam_ham_phish_300k,0001.parquet,1,spam,ix yb
+short_text,77071,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,pardon me tseveryn
+short_text,77514,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,shaquana bye
+short_text,78078,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,tr nb sp wpym
+short_text,78442,locuoco_big_spam_ham_phish_300k,0000.parquet,0,ham,- kevin kindall
+short_text,78945,locuoco_big_spam_ham_phish_300k,0001.parquet,0,ham,see attachment
+short_text,79009,setfit_enron_spam,setfit_enron_spam.csv,1,spam,anderson jeromy
+short_text,79087,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,tknxd bso fdricyq u
+short_text,79305,locuoco_big_spam_ham_phish_300k,0001.parquet,1,spam,fbjouk jetlfqr
+short_text,80086,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,nb sp
+short_text,80847,locuoco_big_spam_ham_phish_300k,0000.parquet,0,ham,whats wrong
+short_text,81097,locuoco_big_spam_ham_phish_300k,0000.parquet,0,ham,youre help
+short_text,81154,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,pwmf yag
+short_text,81415,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,gtibabze jwov
+short_text,81763,locuoco_big_spam_ham_phish_300k,0001.parquet,1,spam,xw tg khoy ysp
+short_text,82192,locuoco_big_spam_ham_phish_300k,0000.parquet,0,ham,hey
+short_text,82934,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,ex a
+short_text,83494,locuoco_big_spam_ham_phish_300k,0001.parquet,0,ham,made small changes
+short_text,83601,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,bodyhtml
+short_text,84564,locuoco_big_spam_ham_phish_300k,0000.parquet,0,ham,thank you rod
+short_text,84682,locuoco_big_spam_ham_phish_300k,0000.parquet,0,ham,nice page
+short_text,84936,locuoco_big_spam_ham_phish_300k,0000.parquet,0,ham,"-
+- fun pics . htm"
+short_text,85062,locuoco_big_spam_ham_phish_300k,0000.parquet,0,ham,call me
+short_text,85487,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,.
+short_text,85886,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,a w otp
+short_text,86029,setfit_enron_spam,setfit_enron_spam.csv,0,ham,house pictures
+short_text,86758,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,br atib vp skpp
+short_text,88173,locuoco_big_spam_ham_phish_300k,0000.parquet,0,ham,thank you .
+short_text,88792,locuoco_big_spam_ham_phish_300k,0000.parquet,0,ham,thank rod
+short_text,89721,locuoco_big_spam_ham_phish_300k,0000.parquet,0,ham,"thanks
+don"
+short_text,89812,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,dsfsdfsdfs
+short_text,90199,locuoco_big_spam_ham_phish_300k,0000.parquet,0,ham,latest
+short_text,90459,locuoco_big_spam_ham_phish_300k,0000.parquet,0,ham,hi dad whats up
+short_text,90573,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,tiu lee
+short_text,90745,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,ufm u
+short_text,90957,locuoco_big_spam_ham_phish_300k,0000.parquet,0,ham,freaking
+short_text,91023,locuoco_big_spam_ham_phish_300k,0001.parquet,0,ham,heart
+short_text,91504,locuoco_big_spam_ham_phish_300k,0000.parquet,0,ham,hate ubs systems im
+short_text,91576,locuoco_big_spam_ham_phish_300k,0000.parquet,0,ham,any thoughts
+short_text,91714,locuoco_big_spam_ham_phish_300k,0000.parquet,0,ham,quotesescapenumber
+short_text,92540,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,ff js et
+short_text,92727,locuoco_big_spam_ham_phish_300k,0001.parquet,1,spam,dcesne
+short_text,93046,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,v eaqnuzgrkz ksrorj
+short_text,93083,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,yfa ssxs bnza fqnt
+short_text,93410,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,"well !
+pob hwyl"
+short_text,93492,locuoco_big_spam_ham_phish_300k,0000.parquet,0,ham,need get blackberry
+short_text,93510,locuoco_big_spam_ham_phish_300k,0001.parquet,0,ham,try this one
+short_text,93528,locuoco_big_spam_ham_phish_300k,0001.parquet,1,spam,kknpaqpvwqrskayb
+short_text,93642,locuoco_big_spam_ham_phish_300k,0000.parquet,0,ham,safe happy new year
+short_text,93748,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,boo c'anix inxin
+short_text,94155,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,óã » §ãû£º email
+short_text,94845,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,un 5 u 6 sclbe
+short_text,95420,setfit_enron_spam,setfit_enron_spam.csv,1,spam,archaic
+short_text,96051,locuoco_big_spam_ham_phish_300k,0001.parquet,1,spam,a pcobqhmnqdtbeci
+short_text,96103,locuoco_big_spam_ham_phish_300k,0001.parquet,0,ham,ok talk tomorrow
+short_text,96111,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,c nsqrcs sk
+short_text,96179,locuoco_big_spam_ham_phish_300k,0000.parquet,0,ham,here it is .
+short_text,96632,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,ebay pharmacy
+short_text,96829,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,g sodj
+short_text,96985,locuoco_big_spam_ham_phish_300k,0000.parquet,0,ham,name movie
+short_text,97047,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,hej well pob hwyl
+short_text,97217,locuoco_big_spam_ham_phish_300k,0001.parquet,1,spam,hgttqkdrgggj
+short_text,97509,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,"touche !
+uvidimsja"
+short_text,97942,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,hey chang
+short_text,98165,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,thermofax
+short_text,98296,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,click see
+short_text,98536,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,4623
+short_text,98540,locuoco_big_spam_ham_phish_300k,0001.parquet,1,spam,t jtsdeft y opdjqdv
+short_text,98602,locuoco_big_spam_ham_phish_300k,0000.parquet,0,ham,here is the latest
+short_text,98676,locuoco_big_spam_ham_phish_300k,0000.parquet,0,ham,read hear ashamed
+short_text,98731,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,x cteteqj e n
+short_text,99021,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,geqej
+short_text,99555,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,wq dktvc h e
+short_text,99588,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,not interested ?
+short_text,99840,locuoco_big_spam_ham_phish_300k,0000.parquet,0,ham,this is good bert
+short_text,100103,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,a html
+short_text,100614,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,cyadcvcqqy ww
+short_text,100913,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,whats good alweda
+short_text,101167,locuoco_big_spam_ham_phish_300k,0001.parquet,1,spam,hallo la prochaine
+short_text,101356,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,remove me
+short_text,101542,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,ahrenholz hello
+short_text,102235,locuoco_big_spam_ham_phish_300k,0001.parquet,1,spam,boo canix inxin
+short_text,102266,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,td escapenumber
+short_text,102724,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,fdbztfod ondja
+short_text,102813,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,column topphpbb
+short_text,102971,locuoco_big_spam_ham_phish_300k,0000.parquet,0,ham,quotesen
+short_text,103105,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,olffclq dqkhbd
+short_text,103133,locuoco_big_spam_ham_phish_300k,0000.parquet,0,ham,lorraine
+short_text,103189,locuoco_big_spam_ham_phish_300k,0000.parquet,0,ham,have fun !
+short_text,103192,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,u eaa ni cnn
+short_text,103338,locuoco_big_spam_ham_phish_300k,0001.parquet,0,ham,you coming
+short_text,103350,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,ghjyan
+short_text,103474,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,http gxz nepel com
+short_text,104164,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,hej eale dearvan
+short_text,104257,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,check this out
+short_text,104496,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,crownethane
+short_text,104530,locuoco_big_spam_ham_phish_300k,0000.parquet,0,ham,"here it is .
+kal"
+short_text,104955,locuoco_big_spam_ham_phish_300k,0000.parquet,0,ham,i left it at home
+short_text,104983,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,labs
+short_text,105183,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,odwri
+short_text,105270,locuoco_big_spam_ham_phish_300k,0000.parquet,0,ham,you are a dork
+short_text,105820,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,tmrcz q zp
+short_text,106453,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,td ciuxav m
+short_text,106760,locuoco_big_spam_ham_phish_300k,0001.parquet,0,ham,named new cfo
+short_text,106777,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,lel kvhb znl
+short_text,106880,locuoco_big_spam_ham_phish_300k,0000.parquet,0,ham,no flow
+short_text,107074,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,njk mheaz
+short_text,107120,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,rn jt
+short_text,107136,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,full article
+short_text,107698,locuoco_big_spam_ham_phish_300k,0001.parquet,1,spam,nugovzgw
+short_text,107716,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,tlb r n kearobkhon
+short_text,107847,locuoco_big_spam_ham_phish_300k,0000.parquet,0,ham,lkjads
+short_text,107907,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,hassan
+short_text,108027,locuoco_big_spam_ham_phish_300k,0001.parquet,1,spam,yaypbg
+short_text,108277,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,smiles§a¦n ¦¬¨ì
+short_text,108353,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,ol fmc
+short_text,108365,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,lzq u wi
+short_text,108395,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,td td uzwpn u
+short_text,108420,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,guten tag ziech
+short_text,108714,locuoco_big_spam_ham_phish_300k,0001.parquet,1,spam,e gvqm zrd cyjbrt
+short_text,108925,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,hiya con esto alon
+short_text,109154,locuoco_big_spam_ham_phish_300k,0001.parquet,0,ham,yes heather kroll
+short_text,109443,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,oqobkajxdkuuy
+short_text,109548,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,gkomerajal
+short_text,109691,locuoco_big_spam_ham_phish_300k,0001.parquet,1,spam,click
+short_text,109855,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,http hsw hensi com
+short_text,110010,locuoco_big_spam_ham_phish_300k,0000.parquet,0,ham,still hot freezing
+short_text,110393,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,ldc by kv ck
+short_text,111433,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,whats sugeng tindak
+short_text,111434,locuoco_big_spam_ham_phish_300k,0000.parquet,0,ham,thanx
+short_text,111505,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,katy
+short_text,111612,locuoco_big_spam_ham_phish_300k,0001.parquet,1,spam,let computer pro
+short_text,112290,setfit_enron_spam,setfit_enron_spam.csv,1,spam,you can be a cop !
+short_text,112402,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,kxmej bh
+short_text,112714,locuoco_big_spam_ham_phish_300k,0000.parquet,0,ham,call budget later
+short_text,112801,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,ihfkhj dwp gi jmr
+short_text,112840,locuoco_big_spam_ham_phish_300k,0001.parquet,0,ham,see attached
+short_text,112908,locuoco_big_spam_ham_phish_300k,0001.parquet,1,spam,hello nice day
+short_text,113293,locuoco_big_spam_ham_phish_300k,0000.parquet,0,ham,testing from hcs
+short_text,113432,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,f lesxez ddw
+short_text,113484,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,dz hho
+short_text,113504,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,tqssoddiqm cgwkw
+short_text,113573,locuoco_big_spam_ham_phish_300k,0001.parquet,1,spam,jtcbbkn
+short_text,113609,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,mind ri vhonana
+short_text,113800,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,s v cbszizhs qvo
+short_text,114343,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,excuse addio
+short_text,115134,locuoco_big_spam_ham_phish_300k,0001.parquet,0,ham,call get
+short_text,115147,locuoco_big_spam_ham_phish_300k,0001.parquet,0,ham,testing hcs
+short_text,115709,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,hej damaun
+short_text,115753,locuoco_big_spam_ham_phish_300k,0000.parquet,0,ham,drove today whats
+short_text,116249,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,im sure come sudie
+short_text,116719,locuoco_big_spam_ham_phish_300k,0000.parquet,0,ham,awesome agenda doc
+short_text,117104,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,hello yanna
+short_text,117487,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,http ezs nepel com
+short_text,117627,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,www escapelong com
+short_text,117808,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,good day adiu
+short_text,117996,locuoco_big_spam_ham_phish_300k,0001.parquet,0,ham,i am freaking out
+short_text,118026,locuoco_big_spam_ham_phish_300k,0001.parquet,0,ham,as requested
+short_text,118447,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,jdno future mailing
+short_text,118448,locuoco_big_spam_ham_phish_300k,0001.parquet,0,ham,oh god haha
+short_text,118488,locuoco_big_spam_ham_phish_300k,0000.parquet,0,ham,scanned
+short_text,118583,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,laptops to buy
+short_text,118628,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,hola and tok pisin
+short_text,118646,locuoco_big_spam_ham_phish_300k,0000.parquet,0,ham,jeff
+short_text,118761,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,¾èº¸àì½ã¸é ´©¸£¼¼¿©
+short_text,119105,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,vista
+short_text,119236,locuoco_big_spam_ham_phish_300k,0000.parquet,0,ham,"mick
+3 - 4783"
+short_text,119841,locuoco_big_spam_ham_phish_300k,0000.parquet,0,ham,have a nice night
+short_text,119981,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,226 y 32 j
+short_text,120034,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,atv zfb zfp fmmbh
+short_text,120200,locuoco_big_spam_ham_phish_300k,0000.parquet,0,ham,check
+short_text,120356,locuoco_big_spam_ham_phish_300k,0001.parquet,1,spam,jn c uwpo
+short_text,120518,setfit_enron_spam,setfit_enron_spam.csv,1,spam,rock her world
+short_text,120593,locuoco_big_spam_ham_phish_300k,0001.parquet,1,spam,ycgqr g
+short_text,120717,locuoco_big_spam_ham_phish_300k,0001.parquet,0,ham,newmiddleeast jpg
+short_text,120785,locuoco_big_spam_ham_phish_300k,0001.parquet,0,ham,are you still here
+short_text,121015,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,buenos tardes way
+short_text,121384,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,piuraa
+short_text,121700,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,hola hej da
+short_text,121886,locuoco_big_spam_ham_phish_300k,0001.parquet,0,ham,go doctor say love
+short_text,122175,locuoco_big_spam_ham_phish_300k,0000.parquet,0,ham,case need
+short_text,122219,locuoco_big_spam_ham_phish_300k,0000.parquet,0,ham,fax image
+short_text,122344,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,xisutijqr
+short_text,122369,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,blig vasco
+short_text,122651,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,degli
+short_text,122935,locuoco_big_spam_ham_phish_300k,0000.parquet,0,ham,i like those
+short_text,123224,locuoco_big_spam_ham_phish_300k,0000.parquet,0,ham,one
+short_text,123968,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,unsubscribe
+short_text,124059,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,lol http ngvein hk
+short_text,124372,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,c ldmcyxoyzghgnxigj
+short_text,124556,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,br iuaeffvxbxan
+short_text,124635,locuoco_big_spam_ham_phish_300k,0000.parquet,0,ham,503 - 464 - 7553
+short_text,125037,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,cqlgq kdleisjzdsfdl
+short_text,125345,locuoco_big_spam_ham_phish_300k,0001.parquet,1,spam,xyomd dpryh
+short_text,125811,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,lxgyujv
+short_text,125890,locuoco_big_spam_ham_phish_300k,0000.parquet,0,ham,diana anne
+short_text,126475,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,af bcdujmegwuy kh u
+short_text,126835,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,hwescapenumberdks
+short_text,126839,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,tbpjxngsa
+short_text,126861,locuoco_big_spam_ham_phish_300k,0000.parquet,0,ham,escapenumber
+short_text,126875,locuoco_big_spam_ham_phish_300k,0001.parquet,1,spam,hfqtd bm tvw
+short_text,127446,locuoco_big_spam_ham_phish_300k,0000.parquet,0,ham,- atto 0136 . gif
+short_text,128176,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,hey man ca ndyi
+short_text,128209,locuoco_big_spam_ham_phish_300k,0000.parquet,0,ham,opening lunch jgm
+short_text,128778,locuoco_big_spam_ham_phish_300k,0001.parquet,1,spam,ocg ey jqi
+short_text,128962,locuoco_big_spam_ham_phish_300k,0000.parquet,0,ham,bad ass hurt
+short_text,129097,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,a
+short_text,129261,locuoco_big_spam_ham_phish_300k,0001.parquet,1,spam,td b gwsbitxihhd aw
+short_text,129290,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,z fvbr e zg ywmj xg
+short_text,129427,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,br marjory
+short_text,129478,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,cspmf
+short_text,130503,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,cyhrevx
+short_text,130709,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,mryfdescapenumber
+short_text,132406,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,zqzc gxowidgxluo
+short_text,132493,locuoco_big_spam_ham_phish_300k,0000.parquet,0,ham,check these out
+short_text,132552,locuoco_big_spam_ham_phish_300k,0000.parquet,0,ham,sent version steph
+short_text,133339,locuoco_big_spam_ham_phish_300k,0001.parquet,1,spam,zjjngq fnknh oulxh
+short_text,133346,locuoco_big_spam_ham_phish_300k,0000.parquet,0,ham,thanks don
+short_text,133534,locuoco_big_spam_ham_phish_300k,0000.parquet,0,ham,test dave
+short_text,133665,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,please no more
+short_text,133775,setfit_enron_spam,setfit_enron_spam.csv,1,spam,free x - box
+short_text,133776,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,hi kwaherini
+short_text,133966,setfit_enron_spam,setfit_enron_spam.csv,0,ham,website
+short_text,134043,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,aqzbr cbbpn qsf f o
+short_text,134068,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,dco hd w i y
+short_text,134688,locuoco_big_spam_ham_phish_300k,0000.parquet,0,ham,this is a test
+short_text,134705,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,sd wltcxumo i
+short_text,134710,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,selina leora
+short_text,134759,locuoco_big_spam_ham_phish_300k,0000.parquet,0,ham,eagaerg
+short_text,135137,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,"hey chang ,"
+short_text,135291,setfit_enron_spam,setfit_enron_spam.csv,1,spam,you can be smart !
+short_text,135300,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,dagger move
+short_text,135630,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,order hey chang
+short_text,135780,locuoco_big_spam_ham_phish_300k,0001.parquet,1,spam,fhrdofrdzh s
+short_text,136159,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,this file is bad !
+short_text,136327,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,ls rt
+short_text,136681,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,na chusku na
+short_text,137116,setfit_enron_spam,setfit_enron_spam.csv,1,spam,security warning
+short_text,137590,locuoco_big_spam_ham_phish_300k,0001.parquet,1,spam,lhclek pz
+short_text,137667,locuoco_big_spam_ham_phish_300k,0000.parquet,0,ham,\ \ nahou - psolp
+short_text,138489,locuoco_big_spam_ham_phish_300k,0001.parquet,1,spam,gdw rkgimc
+short_text,138511,locuoco_big_spam_ham_phish_300k,0001.parquet,0,ham,attached prices
+short_text,138876,locuoco_big_spam_ham_phish_300k,0001.parquet,1,spam,well aidaa
+short_text,138885,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,crtohkt ktxoagz
+short_text,139127,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,edition
+short_text,139508,locuoco_big_spam_ham_phish_300k,0000.parquet,0,ham,good one
+short_text,139587,locuoco_big_spam_ham_phish_300k,0001.parquet,0,ham,thanks calling sir
+short_text,139778,locuoco_big_spam_ham_phish_300k,0000.parquet,0,ham,watch whole thing
+short_text,140035,locuoco_big_spam_ham_phish_300k,0000.parquet,0,ham,thankyou
+short_text,140484,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,hello there alon
+short_text,140923,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,http qgt hensi com
+short_text,141368,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,bzq xuqqzf l
+short_text,141819,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,a ix yb
+short_text,141936,locuoco_big_spam_ham_phish_300k,0000.parquet,0,ham,thanks rod
+short_text,141959,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,h kqix vu
+short_text,142265,locuoco_big_spam_ham_phish_300k,0001.parquet,1,spam,a xyomd dpryh
+short_text,142818,locuoco_big_spam_ham_phish_300k,0001.parquet,0,ham,found cpuc web site
+short_text,142917,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,head ijsri nwz jpd
+short_text,142994,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,xbxww w lqfo eoe
+short_text,143072,locuoco_big_spam_ham_phish_300k,0000.parquet,0,ham,you're no help
+short_text,143711,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,casey
+short_text,144210,locuoco_big_spam_ham_phish_300k,0000.parquet,0,ham,see
+short_text,144267,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,"hallo !
+' aere ra"
+short_text,144515,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,leonard escapelong
+short_text,144517,locuoco_big_spam_ham_phish_300k,0001.parquet,1,spam,zhyv b lsvs mf
+short_text,145602,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,mxvio gme
+short_text,145820,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,http agsydhfj com
+short_text,145859,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,gmail storm robert
+short_text,146159,locuoco_big_spam_ham_phish_300k,0000.parquet,0,ham,heart me
+short_text,146272,locuoco_big_spam_ham_phish_300k,0001.parquet,1,spam,a c nsqrcs sk
+short_text,146702,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,ann piqqrvvpj
+short_text,146728,locuoco_big_spam_ham_phish_300k,0001.parquet,1,spam,i'm so sorry wajkon
+short_text,146781,locuoco_big_spam_ham_phish_300k,0001.parquet,1,spam,hej a damaun
+short_text,146793,locuoco_big_spam_ham_phish_300k,0001.parquet,1,spam,tkegmxro zkou ml
+short_text,146851,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,annette move me
+short_text,147185,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,this file is bad
+short_text,147208,locuoco_big_spam_ham_phish_300k,0000.parquet,0,ham,laura
+short_text,147531,locuoco_big_spam_ham_phish_300k,0000.parquet,0,ham,quit ignoring me
+short_text,147740,locuoco_big_spam_ham_phish_300k,0001.parquet,1,spam,lucrative
+short_text,147790,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,chk pvivd rfe
+short_text,148195,locuoco_big_spam_ham_phish_300k,0000.parquet,0,ham,na trade counts
+short_text,148636,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,td yxuiicciztu vg
+short_text,148817,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,cww qepgsf
+short_text,149176,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,hows farvael
+short_text,149893,locuoco_big_spam_ham_phish_300k,0000.parquet,0,ham,congrads
+short_text,150061,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,hello chief veda
+short_text,150331,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,npw fu wihd sbuxgr
+short_text,150378,locuoco_big_spam_ham_phish_300k,0001.parquet,0,ham,call bored
+short_text,150395,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,howdy id be wakato
+short_text,150403,locuoco_big_spam_ham_phish_300k,0000.parquet,0,ham,thank you darren
+short_text,150617,locuoco_big_spam_ham_phish_300k,0001.parquet,1,spam,ive heard lot sahha
+short_text,150625,spam_2,00046.96a19afe71cd6f1f14c96293557a49ff,1,spam,Do you Remember Me?
+short_text,150682,locuoco_big_spam_ham_phish_300k,0000.parquet,0,ham,lkajsf lkjasf
+short_text,150700,locuoco_big_spam_ham_phish_300k,0000.parquet,0,ham,lost creek updated
+short_text,150738,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,hi caw
+short_text,150818,locuoco_big_spam_ham_phish_300k,0001.parquet,0,ham,rest picks
+short_text,150991,locuoco_big_spam_ham_phish_300k,0001.parquet,0,ham,report
+short_text,151016,locuoco_big_spam_ham_phish_300k,0000.parquet,0,ham,ok bye
+short_text,151319,locuoco_big_spam_ham_phish_300k,0000.parquet,0,ham,john
+short_text,151399,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,linux
+short_text,151792,locuoco_big_spam_ham_phish_300k,0000.parquet,0,ham,get ax birthday
+short_text,151795,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,rogydxd
+short_text,152114,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,jtsdeft opdjqdv
+short_text,152312,locuoco_big_spam_ham_phish_300k,0000.parquet,0,ham,youre lying
+short_text,152605,locuoco_big_spam_ham_phish_300k,0001.parquet,0,ham,smokes
+short_text,152769,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,l
+short_text,153044,locuoco_big_spam_ham_phish_300k,0000.parquet,0,ham,nice picture
+short_text,153078,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,tbody
+short_text,153547,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,azldj ebom zve e
+short_text,153685,locuoco_big_spam_ham_phish_300k,0001.parquet,0,ham,skills
+short_text,154472,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,clement hassan
+short_text,154725,locuoco_big_spam_ham_phish_300k,0000.parquet,0,ham,ole obj
+short_text,154950,locuoco_big_spam_ham_phish_300k,0000.parquet,0,ham,attached draft
+short_text,155605,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,up and doing piuraa
+short_text,155705,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,nostradamus tour
+short_text,155784,locuoco_big_spam_ham_phish_300k,0001.parquet,1,spam,vhj u vkcuwnwbfu
+short_text,156669,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,tr td ng bugux zltt
+short_text,156768,locuoco_big_spam_ham_phish_300k,0001.parquet,0,ham,lunch plans today
+short_text,156837,locuoco_big_spam_ham_phish_300k,0000.parquet,0,ham,attl htm
+short_text,157070,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,salut adieussiatz
+short_text,157200,locuoco_big_spam_ham_phish_300k,0000.parquet,0,ham,lkjafd lkjasfd
+short_text,157207,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,aescapenumber div
+short_text,157218,locuoco_big_spam_ham_phish_300k,0000.parquet,0,ham,thank jp
+short_text,157498,locuoco_big_spam_ham_phish_300k,0000.parquet,0,ham,wont believe eyes
+short_text,158103,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,shelley
+short_text,158678,locuoco_big_spam_ham_phish_300k,0001.parquet,0,ham,faint hearted
+short_text,158730,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,o krvz dxsqdj
+short_text,159801,locuoco_big_spam_ham_phish_300k,0001.parquet,0,ham,q love always kim
+short_text,159860,setfit_enron_spam,setfit_enron_spam.csv,1,spam,re [ 6 ]
+short_text,159984,locuoco_big_spam_ham_phish_300k,0000.parquet,0,ham,stan call
+short_text,160223,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,dear adf
+short_text,160572,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,rfcmd
+short_text,160702,locuoco_big_spam_ham_phish_300k,0000.parquet,0,ham,came last week
+short_text,160934,locuoco_big_spam_ham_phish_300k,0001.parquet,1,spam,kin bin tin nah
+short_text,162395,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,hallo devlesa
+short_text,162539,locuoco_big_spam_ham_phish_300k,0001.parquet,1,spam,ino o uy
+short_text,162553,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,h t m l
+short_text,163052,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,xxus yle j
+short_text,163111,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,muuirj bvxhd w pos
+short_text,163460,locuoco_big_spam_ham_phish_300k,0000.parquet,0,ham,lunch
+short_text,163662,locuoco_big_spam_ham_phish_300k,0000.parquet,0,ham,please review
+short_text,163933,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,ivss ih hecdr
+short_text,164301,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,tr nb sp
+short_text,164401,locuoco_big_spam_ham_phish_300k,0000.parquet,0,ham,assitance
+short_text,164670,locuoco_big_spam_ham_phish_300k,0001.parquet,1,spam,a onj gbc
+short_text,164696,locuoco_big_spam_ham_phish_300k,0000.parquet,0,ham,kam post ids
+short_text,165385,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,texts
+short_text,165749,locuoco_big_spam_ham_phish_300k,0000.parquet,0,ham,attached
+short_text,166078,locuoco_big_spam_ham_phish_300k,0001.parquet,0,ham,here they are
+short_text,166574,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,oiezbwun bzzbuw pwg
+short_text,166657,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,br ftmrz u
+short_text,167196,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,ganges move me
+short_text,167325,locuoco_big_spam_ham_phish_300k,0001.parquet,1,spam,a nbs p
+short_text,167609,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,http vwk afeet com
+short_text,168121,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,nfinmvesg n
+short_text,168237,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,tv gltv wxnas cyk
+short_text,168268,locuoco_big_spam_ham_phish_300k,0001.parquet,0,ham,click message icon
+short_text,168295,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,©êºp¥´âz¤f¡i
+short_text,168519,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,"click to order
+r me"
+short_text,168677,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,ekjbk
+short_text,169651,setfit_enron_spam,setfit_enron_spam.csv,1,spam,no more injections
+short_text,170150,locuoco_big_spam_ham_phish_300k,0001.parquet,0,ham,come visit
+short_text,170206,locuoco_big_spam_ham_phish_300k,0000.parquet,0,ham,full day url
+short_text,170276,locuoco_big_spam_ham_phish_300k,0000.parquet,0,ham,regards karen
+short_text,170291,locuoco_big_spam_ham_phish_300k,0001.parquet,1,spam,elrqbahi syggycoejj
+short_text,170476,locuoco_big_spam_ham_phish_300k,0000.parquet,0,ham,vladi thanks kim
+short_text,170888,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,alrite olesere
+short_text,170942,locuoco_big_spam_ham_phish_300k,0000.parquet,0,ham,here it is !
+short_text,171639,locuoco_big_spam_ham_phish_300k,0000.parquet,0,ham,susan thank leonard
+short_text,172226,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,mind hola hej da
+short_text,172467,locuoco_big_spam_ham_phish_300k,0000.parquet,0,ham,)
+short_text,172530,locuoco_big_spam_ham_phish_300k,0001.parquet,1,spam,backhan d
+short_text,172655,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,xkylccty ocp dsqv l
+short_text,173247,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,pyan daw mala
+short_text,173635,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,kmqescapenumber
+short_text,174151,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,boundar
+short_text,174159,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,txt add
+short_text,174251,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,a a a a
+short_text,174484,locuoco_big_spam_ham_phish_300k,0001.parquet,0,ham,go jim
+short_text,174796,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,redirect page
+short_text,174907,locuoco_big_spam_ham_phish_300k,0001.parquet,0,ham,this should do it
+short_text,175389,locuoco_big_spam_ham_phish_300k,0001.parquet,1,spam,lhqrtegy f
+short_text,175427,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,hi hasta entonces
+short_text,175447,locuoco_big_spam_ham_phish_300k,0000.parquet,0,ham,here it is kal
+short_text,175473,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,uwcdlje ilkb
+short_text,175774,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,adieu jilkoba
+short_text,175791,locuoco_big_spam_ham_phish_300k,0001.parquet,0,ham,i love you
+short_text,176469,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,embed
+short_text,176740,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,hide thisby mark
+short_text,176845,locuoco_big_spam_ham_phish_300k,0001.parquet,0,ham,hi dad whats
+short_text,177181,locuoco_big_spam_ham_phish_300k,0001.parquet,1,spam,excuse me addio
+short_text,177560,spam_2,00266.12e00174bc1346952a8ba2c430e48bf6,1,spam,Important
+short_text,177620,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,jth qaputwxvo kga
+short_text,177873,locuoco_big_spam_ham_phish_300k,0000.parquet,0,ham,meeting yet
+short_text,177972,locuoco_big_spam_ham_phish_300k,0000.parquet,0,ham,ecial msn
+short_text,178089,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,p beeyh zcxzig
+short_text,178345,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,o vhj u vkcuwnwbfu
+short_text,178611,locuoco_big_spam_ham_phish_300k,0000.parquet,0,ham,latest file
+short_text,178702,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,escapenumber td
+short_text,178779,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,here it is
+short_text,178915,locuoco_big_spam_ham_phish_300k,0000.parquet,0,ham,kim watson message
+short_text,178922,locuoco_big_spam_ham_phish_300k,0000.parquet,0,ham,im go coming
+short_text,179250,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,sd kgtbfaw g
+short_text,179332,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,ino uy
+short_text,179364,locuoco_big_spam_ham_phish_300k,0000.parquet,0,ham,family fun ja
+short_text,179619,locuoco_big_spam_ham_phish_300k,0001.parquet,1,spam,a uvyrfgm tqi
+short_text,179641,locuoco_big_spam_ham_phish_300k,0000.parquet,0,ham,unsubscribe
+short_text,180409,locuoco_big_spam_ham_phish_300k,0000.parquet,0,ham,going brat day
+short_text,180562,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,magg erf
+short_text,181083,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,cixz vhmmcjay n ln
+short_text,181161,locuoco_big_spam_ham_phish_300k,0000.parquet,0,ham,nice shirt
+short_text,181221,locuoco_big_spam_ham_phish_300k,0001.parquet,0,ham,lets try
+short_text,181682,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,excuse me bis moaje
+short_text,181693,locuoco_big_spam_ham_phish_300k,0000.parquet,0,ham,lets try michelle
+short_text,181815,locuoco_big_spam_ham_phish_300k,0000.parquet,0,ham,got it stuart
+short_text,181858,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,nkdcqvht
+short_text,181880,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,a vsi tcx xtmgkbjm
+short_text,181884,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,cnn
+short_text,181886,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,would would wakato
+short_text,182102,locuoco_big_spam_ham_phish_300k,0000.parquet,0,ham,lavo
+short_text,182708,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,h l
+short_text,183292,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,remove
+short_text,183810,locuoco_big_spam_ham_phish_300k,0000.parquet,0,ham,sorry for the delay
+short_text,184198,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,cysajo
+short_text,184422,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,specific
+short_text,184575,locuoco_big_spam_ham_phish_300k,0000.parquet,0,ham,morgan gottsponer
+short_text,184927,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,vo mkhj k svh ry
+short_text,185145,locuoco_big_spam_ham_phish_300k,0001.parquet,1,spam,lcn nj d jxbrfpeo k
+short_text,185200,locuoco_big_spam_ham_phish_300k,0001.parquet,1,spam,http www gtv wo
+short_text,185368,locuoco_big_spam_ham_phish_300k,0000.parquet,0,ham,would great
+short_text,185515,locuoco_big_spam_ham_phish_300k,0001.parquet,1,spam,ltvhgd dve
+short_text,185819,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,tquq z pf
+short_text,185874,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,hey bidaya neuchi
+short_text,186201,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,http kmq nepel com
+short_text,186733,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,iescapenumber
+short_text,186785,spam,00329.af4af411fb1268d1461b29fa2d2145a3,1,spam,拾金不昧~~別傻了~~
+short_text,187699,locuoco_big_spam_ham_phish_300k,0000.parquet,0,ham,nancyl shore net
+short_text,187923,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,howre aere ra
+short_text,188032,locuoco_big_spam_ham_phish_300k,0000.parquet,0,ham,send catalog
+short_text,188411,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,click click click
+short_text,188605,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,well well cuidate
+short_text,188623,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,qj kl lowvxutiuhr
+short_text,188629,locuoco_big_spam_ham_phish_300k,0001.parquet,1,spam,hi hei konei ra
+short_text,189253,locuoco_big_spam_ham_phish_300k,0001.parquet,1,spam,kg
+short_text,189613,locuoco_big_spam_ham_phish_300k,0000.parquet,0,ham,thank bernie
+short_text,191792,locuoco_big_spam_ham_phish_300k,0000.parquet,0,ham,sold derek
+short_text,192410,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,td nxdfmfro
+short_text,192784,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,detonableuranus
+short_text,193287,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,sutnnjt
+short_text,193406,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,groovy salam
+short_text,193836,locuoco_big_spam_ham_phish_300k,0000.parquet,0,ham,wes
+short_text,193839,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,loading messages
+short_text,193880,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,hmvoyxfrbx
+short_text,194192,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,bznb ow
+short_text,194232,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,a br
+short_text,194376,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,becket escapelong
+short_text,194383,locuoco_big_spam_ham_phish_300k,0000.parquet,0,ham,help
+short_text,194529,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,requested file .
+short_text,195328,locuoco_big_spam_ham_phish_300k,0000.parquet,0,ham,anyone tried this
+short_text,195523,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,hola kuna
+short_text,195929,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,report
+short_text,196102,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,backhan
+short_text,196473,locuoco_big_spam_ham_phish_300k,0000.parquet,0,ham,connect lee
+short_text,196742,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,creepiest
+short_text,196781,locuoco_big_spam_ham_phish_300k,0001.parquet,1,spam,ostrand er
+short_text,197458,locuoco_big_spam_ham_phish_300k,0000.parquet,0,ham,i concur .
+short_text,197497,locuoco_big_spam_ham_phish_300k,0001.parquet,0,ham,you still here
+short_text,197563,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,br k l ckgc edhxej
+short_text,197733,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,hrcfajm
+short_text,197768,locuoco_big_spam_ham_phish_300k,0000.parquet,0,ham,call
+short_text,197794,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,im sorry wajkon
+short_text,198201,locuoco_big_spam_ham_phish_300k,0000.parquet,0,ham,today
+short_text,198459,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,map
+short_text,198693,locuoco_big_spam_ham_phish_300k,0000.parquet,0,ham,281 . 343 . 8233
+short_text,199210,locuoco_big_spam_ham_phish_300k,0001.parquet,1,spam,zrblnarpilnzrekvt
+short_text,199305,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,k ik coicsefh jx c
+short_text,199315,locuoco_big_spam_ham_phish_300k,0001.parquet,0,ham,happy thanksgiving
+short_text,199539,setfit_enron_spam,setfit_enron_spam.csv,1,spam,note
+short_text,199815,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,zltfcp ihr sogifnp
+short_text,199842,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,buenos dias adiyos
+short_text,199920,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,"hola !
+hej da"
+short_text,199982,locuoco_big_spam_ham_phish_300k,0000.parquet,0,ham,ignoring
+short_text,200132,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,tzyzescapenumberl
+short_text,202054,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,hey honey sholem
+short_text,202222,locuoco_big_spam_ham_phish_300k,0000.parquet,0,ham,going boring today
+short_text,202309,locuoco_big_spam_ham_phish_300k,0001.parquet,0,ham,afwsfg
+short_text,202367,setfit_enron_spam,setfit_enron_spam.csv,1,spam,re : selina leora
+short_text,202459,locuoco_big_spam_ham_phish_300k,0000.parquet,0,ham,here you go jim
+short_text,202654,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,ht ml
+short_text,202787,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,hows orevwa
+short_text,203738,locuoco_big_spam_ham_phish_300k,0000.parquet,0,ham,so
+short_text,203856,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,bonjour shul tat
+short_text,203908,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,fbjouk jetlfqr d
+short_text,204136,locuoco_big_spam_ham_phish_300k,0001.parquet,1,spam,kknpaqpvwqrskayb d
+short_text,204303,locuoco_big_spam_ham_phish_300k,0000.parquet,0,ham,thanks input mike
+short_text,204319,locuoco_big_spam_ham_phish_300k,0001.parquet,0,ham,ckl
+short_text,204353,locuoco_big_spam_ham_phish_300k,0000.parquet,0,ham,- attl . htm
+short_text,204695,setfit_enron_spam,setfit_enron_spam.csv,0,ham,revised
+short_text,204952,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,im sorry aju
+short_text,204969,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,ioxjzcktrfmr
+short_text,205000,locuoco_big_spam_ham_phish_300k,0000.parquet,0,ham,tables
+short_text,205047,locuoco_big_spam_ham_phish_300k,0001.parquet,1,spam,td td td a a a
+short_text,205190,locuoco_big_spam_ham_phish_300k,0001.parquet,0,ham,thank lisa sue
+short_text,205596,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,rset
+short_text,205988,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,dot
+short_text,206033,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,udlcianyqi cdq hsfa
+short_text,206106,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,salut qosh
+short_text,206225,locuoco_big_spam_ham_phish_300k,0000.parquet,0,ham,stan will call in
+short_text,206271,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,rcfwwt a
+short_text,206735,locuoco_big_spam_ham_phish_300k,0000.parquet,0,ham,\\ \\ nahou psolp
+short_text,206741,locuoco_big_spam_ham_phish_300k,0001.parquet,0,ham,power beer
+short_text,206843,locuoco_big_spam_ham_phish_300k,0000.parquet,0,ham,bring male admirer
+short_text,207402,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,not interested
+short_text,207626,locuoco_big_spam_ham_phish_300k,0001.parquet,1,spam,oops kurtemtmchuub
+short_text,208138,locuoco_big_spam_ham_phish_300k,0000.parquet,0,ham,pick phone
+short_text,208361,locuoco_big_spam_ham_phish_300k,0000.parquet,0,ham,attachment
+short_text,208381,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,font
+short_text,208592,locuoco_big_spam_ham_phish_300k,0000.parquet,0,ham,see attached file
+short_text,208798,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,lsy
+short_text,209150,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,hey man dovizhdane
+short_text,209924,locuoco_big_spam_ham_phish_300k,0000.parquet,0,ham,are you still there
+short_text,210601,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,dj ielom j
+short_text,211412,locuoco_big_spam_ham_phish_300k,0000.parquet,0,ham,need get pager
+short_text,213114,locuoco_big_spam_ham_phish_300k,0001.parquet,0,ham,got word deal done
+short_text,213239,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,hello good day adiu
+short_text,213350,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,directs
+short_text,213495,locuoco_big_spam_ham_phish_300k,0001.parquet,1,spam,«è®a¨àµ£¤å±ðcd
+short_text,213598,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,howre murabeho
+short_text,213692,locuoco_big_spam_ham_phish_300k,0000.parquet,0,ham,call me i'm bored
+short_text,213867,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,fu escapelong ktmk
+short_text,214200,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,"hello there !
+alon"
+short_text,214309,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,hhotzsb
+short_text,214386,locuoco_big_spam_ham_phish_300k,0001.parquet,1,spam,respite
+short_text,214615,locuoco_big_spam_ham_phish_300k,0000.parquet,0,ham,sorry delay
+short_text,214632,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,http inl nepel com
+short_text,214925,locuoco_big_spam_ham_phish_300k,0000.parquet,0,ham,daren fyi bob
+short_text,215353,locuoco_big_spam_ham_phish_300k,0001.parquet,1,spam,bpsnz
+short_text,215537,locuoco_big_spam_ham_phish_300k,0000.parquet,0,ham,that ' s us
+short_text,215760,locuoco_big_spam_ham_phish_300k,0000.parquet,0,ham,hi
+short_text,215771,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,hallo ' aere ra
+short_text,216053,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,hi there kwaherini
+short_text,216928,locuoco_big_spam_ham_phish_300k,0001.parquet,1,spam,ghycdxtm
+short_text,216952,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,http bin nepel com
+short_text,216956,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,mg aq vzij
+short_text,217139,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,qsuqx
+short_text,217628,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,name wrong file bad
+short_text,217673,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,kk kfrfwrf
+short_text,217708,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,"hi !
+xaawa tel"
+short_text,217713,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,br hu y yji
+short_text,218385,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,br denouement
+short_text,218477,locuoco_big_spam_ham_phish_300k,0001.parquet,0,ham,good bert
+short_text,218538,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,andre
+short_text,218543,locuoco_big_spam_ham_phish_300k,0001.parquet,1,spam,¼ö½å°åºî½åã»
+short_text,218579,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,free pay per view
+short_text,219178,locuoco_big_spam_ham_phish_300k,0001.parquet,1,spam,dont like sandeiv
+short_text,219223,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,requested file
+short_text,219234,locuoco_big_spam_ham_phish_300k,0000.parquet,0,ham,see file attach
+short_text,219568,locuoco_big_spam_ham_phish_300k,0000.parquet,0,ham,call im bored
+short_text,219815,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,ameo
+short_text,220078,locuoco_big_spam_ham_phish_300k,0001.parquet,1,spam,please
+short_text,220134,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,hello chief chao
+short_text,220403,locuoco_big_spam_ham_phish_300k,0000.parquet,0,ham,email address
+short_text,220595,locuoco_big_spam_ham_phish_300k,0000.parquet,0,ham,today brat
+short_text,220685,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,hi there caw
+short_text,221479,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,betotgim di lehna
+short_text,221930,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,well niyawa tel
+short_text,221991,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,cxdoiffvfalk
+short_text,222014,locuoco_big_spam_ham_phish_300k,0000.parquet,0,ham,hey whats
+short_text,223236,locuoco_big_spam_ham_phish_300k,0000.parquet,0,ham,that ' s us .
+short_text,223563,locuoco_big_spam_ham_phish_300k,0001.parquet,0,ham,heather kroll
+short_text,223675,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,ndash winer
+short_text,224309,locuoco_big_spam_ham_phish_300k,0000.parquet,0,ham,testing
+short_text,225542,locuoco_big_spam_ham_phish_300k,0000.parquet,0,ham,feeling morning
+short_text,225651,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,br xgx ybv ku
+short_text,225747,locuoco_big_spam_ham_phish_300k,0001.parquet,1,spam,well never iahni
+short_text,226501,locuoco_big_spam_ham_phish_300k,0000.parquet,0,ham,npr dial houston
+short_text,226704,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,pjuqjf jqkqxye
+short_text,226733,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,click me
+short_text,226832,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,nhkyexpwylwm
+short_text,227277,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,jzescapenumberel
+short_text,227455,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,link to unsubscribe
+short_text,228043,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,xitug xtll n eu
+short_text,228086,locuoco_big_spam_ham_phish_300k,0000.parquet,0,ham,bob virgo
+short_text,228170,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,no more
+short_text,228739,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,vrqsoyyquutwzuf
+short_text,228859,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,>
+short_text,228955,locuoco_big_spam_ham_phish_300k,0000.parquet,0,ham,sorry so late .
+short_text,229036,setfit_enron_spam,setfit_enron_spam.csv,1,spam,message subject
+short_text,229044,locuoco_big_spam_ham_phish_300k,0000.parquet,0,ham,new additions
+short_text,229438,locuoco_big_spam_ham_phish_300k,0000.parquet,0,ham,thank you
+short_text,229636,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,krvz dxsqdj
+short_text,229637,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,mhbwuwntqruk sbdb
+short_text,230869,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,vhpv mjhils
+short_text,231428,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,spam iyh b r x ac
+short_text,231454,locuoco_big_spam_ham_phish_300k,0001.parquet,1,spam,of ivss ih hecdr
+short_text,232368,setfit_enron_spam,setfit_enron_spam.csv,1,spam,light up her life
+short_text,232615,locuoco_big_spam_ham_phish_300k,0001.parquet,0,ham,gpiogtgiupuypoiuh
+short_text,233142,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,tr tr tr
+short_text,233877,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,http www gtv wo to
+short_text,234168,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,adamos geronimo
+short_text,234350,locuoco_big_spam_ham_phish_300k,0000.parquet,0,ham,scott schwartz
+short_text,234465,locuoco_big_spam_ham_phish_300k,0001.parquet,1,spam,buenos tardes way'
+short_text,234831,locuoco_big_spam_ham_phish_300k,0001.parquet,0,ham,where are you
+short_text,234899,locuoco_big_spam_ham_phish_300k,0000.parquet,0,ham,done .
+short_text,234988,locuoco_big_spam_ham_phish_300k,0001.parquet,1,spam,hyuv uzpfz vc
+short_text,235243,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,pingvin
+short_text,235653,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,âà±h¦n¤í
+short_text,236010,locuoco_big_spam_ham_phish_300k,0000.parquet,0,ham,neon suffering doc
+short_text,236077,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,http itq dimur com
+short_text,236295,locuoco_big_spam_ham_phish_300k,0001.parquet,1,spam,boo ayoo
+short_text,236528,locuoco_big_spam_ham_phish_300k,0000.parquet,0,ham,fun pics htm
+short_text,237181,locuoco_big_spam_ham_phish_300k,0001.parquet,1,spam,a lsipgx iavs ypcim
+short_text,237336,locuoco_big_spam_ham_phish_300k,0000.parquet,0,ham,take care kevin
+short_text,237502,locuoco_big_spam_ham_phish_300k,0001.parquet,0,ham,shelley thanks liz
+short_text,238309,locuoco_big_spam_ham_phish_300k,0001.parquet,1,spam,djpcsmadbea
+short_text,238794,locuoco_big_spam_ham_phish_300k,0000.parquet,0,ham,find time dinner
+short_text,238941,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,questo
+short_text,238986,locuoco_big_spam_ham_phish_300k,0001.parquet,0,ham,what's the plan
+short_text,239227,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,netsearch§a¦n ¦¬¨ì
+short_text,239327,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,preserved
+short_text,239872,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,ex
+short_text,240074,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,nvqcnndtz
+short_text,240422,locuoco_big_spam_ham_phish_300k,0000.parquet,0,ham,hey forget
+short_text,240972,locuoco_big_spam_ham_phish_300k,0000.parquet,0,ham,contract mgi mike
+short_text,241054,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,free enter here
+short_text,241174,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,hi there vidaaya
+short_text,242015,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,saxuzpgb hnngqzd z
+short_text,242149,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,ylq bxop rbk
+short_text,242777,locuoco_big_spam_ham_phish_300k,0000.parquet,0,ham,spam
+short_text,242799,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,br
+short_text,243003,locuoco_big_spam_ham_phish_300k,0001.parquet,1,spam,dnvvkkkxrd inl oo t
+short_text,243305,locuoco_big_spam_ham_phish_300k,0000.parquet,0,ham,thank you lisa sue
+short_text,243508,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,www blakop hk
+short_text,243954,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,td lsiefzcmm
+short_text,244130,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,escapenumbergnkkt
+short_text,244371,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,qjl kpkw zgp
+short_text,244908,locuoco_big_spam_ham_phish_300k,0001.parquet,1,spam,nlh e gb escapelong
+short_text,245062,locuoco_big_spam_ham_phish_300k,0001.parquet,0,ham,back talking
+short_text,245109,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,http wfs nepel com
+short_text,245386,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,nerissa
+short_text,245525,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,touche uvidimsja
+short_text,245844,locuoco_big_spam_ham_phish_300k,0000.parquet,0,ham,thanks vince
+short_text,245975,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,wh
+short_text,246412,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,ezgus
+short_text,246497,locuoco_big_spam_ham_phish_300k,0000.parquet,0,ham,working
+short_text,246672,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,g js hnksr bsrx dt
+short_text,247149,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,whats sampai nanti
+short_text,247633,locuoco_big_spam_ham_phish_300k,0000.parquet,0,ham,see attached letter
+short_text,247804,setfit_enron_spam,setfit_enron_spam.csv,0,ham,fyi
+short_text,247886,locuoco_big_spam_ham_phish_300k,0001.parquet,0,ham,got classic
+short_text,248017,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,ive heard lot ayau
+short_text,248230,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,just look here
+short_text,248277,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,body html
+short_text,248575,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,never agaln
+short_text,248598,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,well pob hwyl
+short_text,248957,locuoco_big_spam_ham_phish_300k,0000.parquet,0,ham,proposed sun
+short_text,249161,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,box and
+short_text,249417,locuoco_big_spam_ham_phish_300k,0001.parquet,0,ham,pretty funny
+short_text,249547,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,pardon baadaye
+short_text,249571,locuoco_big_spam_ham_phish_300k,0001.parquet,1,spam,i'm so sorry aju
+short_text,249771,locuoco_big_spam_ham_phish_300k,0001.parquet,0,ham,per request
+short_text,250044,locuoco_big_spam_ham_phish_300k,0000.parquet,0,ham,have fun
+short_text,250180,locuoco_big_spam_ham_phish_300k,0001.parquet,1,spam,tdtr xu
+short_text,250225,locuoco_big_spam_ham_phish_300k,0000.parquet,0,ham,thanks scott
+short_text,250581,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,td td
+short_text,250686,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,click here
+short_text,250775,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,trehala
+short_text,251817,locuoco_big_spam_ham_phish_300k,0000.parquet,0,ham,came up last week
+short_text,251946,locuoco_big_spam_ham_phish_300k,0000.parquet,0,ham,do i have skills
+short_text,252185,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,e n o u g h
+short_text,252356,setfit_enron_spam,setfit_enron_spam.csv,0,ham,elena chilkina hi
+short_text,252621,locuoco_big_spam_ham_phish_300k,0000.parquet,0,ham,url
+short_text,252682,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,or
+short_text,252702,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,leora
+short_text,252756,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,q ri
+short_text,253016,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,clump
+short_text,253019,locuoco_big_spam_ham_phish_300k,0000.parquet,0,ham,thanks everybody
+short_text,253060,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,br hu yji
+short_text,253153,locuoco_big_spam_ham_phish_300k,0001.parquet,0,ham,filings tw year
+short_text,253205,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,exmwogw
+short_text,253359,locuoco_big_spam_ham_phish_300k,0000.parquet,0,ham,have a blessed day
+short_text,253364,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,yihg ryylhpyfs
+short_text,253949,locuoco_big_spam_ham_phish_300k,0000.parquet,0,ham,still
+short_text,254076,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,good evening kaoha
+short_text,254121,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,br r gsc uqocc
+short_text,254184,locuoco_big_spam_ham_phish_300k,0000.parquet,0,ham,original message
+short_text,254658,locuoco_big_spam_ham_phish_300k,0000.parquet,0,ham,cool thanks jeff
+short_text,254712,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,byanzdvlco
+short_text,254751,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,html message
+short_text,255273,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,","
+short_text,255432,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,thy
+short_text,255618,setfit_enron_spam,setfit_enron_spam.csv,1,spam,. jif .
+short_text,255644,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,br b x plitg bym
+short_text,255874,locuoco_big_spam_ham_phish_300k,0000.parquet,0,ham,nasdaq liffel doc
+short_text,255948,locuoco_big_spam_ham_phish_300k,0000.parquet,0,ham,pick up the phone
+short_text,256163,locuoco_big_spam_ham_phish_300k,0001.parquet,0,ham,here you go
+short_text,256505,locuoco_big_spam_ham_phish_300k,0001.parquet,0,ham,where did you go
+short_text,256569,locuoco_big_spam_ham_phish_300k,0000.parquet,0,ham,per your request
+short_text,256577,locuoco_big_spam_ham_phish_300k,0000.parquet,0,ham,temp escapenumber
+short_text,257184,locuoco_big_spam_ham_phish_300k,0001.parquet,1,spam,dont like weraba
+short_text,257347,locuoco_big_spam_ham_phish_300k,0000.parquet,0,ham,night night
+short_text,257587,locuoco_big_spam_ham_phish_300k,0000.parquet,0,ham,heath bar butt
+short_text,257827,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,fhrdofrdzh
+short_text,257880,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,hi adzzislytodz
+short_text,258101,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,buy it !
+short_text,258476,locuoco_big_spam_ham_phish_300k,0000.parquet,0,ham,test escapenumber
+short_text,258668,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,dco hd w
+short_text,259547,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,dgrnj f c
+short_text,260357,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,lcn nj jxbrfpeo k
+short_text,260384,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,uwuvppgf gyuqq vrh
+short_text,260917,locuoco_big_spam_ham_phish_300k,0000.parquet,0,ham,attached row report
+short_text,261034,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,azckgp ncd e dpj j
+short_text,261180,locuoco_big_spam_ham_phish_300k,0000.parquet,0,ham,name the movie
+short_text,261761,locuoco_big_spam_ham_phish_300k,0000.parquet,0,ham,hey are you here
+short_text,261853,locuoco_big_spam_ham_phish_300k,0001.parquet,0,ham,quit ignoring
+short_text,261910,locuoco_big_spam_ham_phish_300k,0001.parquet,0,ham,hey rock jess
+short_text,262056,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,janell
+short_text,262316,locuoco_big_spam_ham_phish_300k,0001.parquet,0,ham,funny
+short_text,262965,locuoco_big_spam_ham_phish_300k,0001.parquet,1,spam,ocvdim zqywyd
+short_text,263098,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,let lapi knewelch
+short_text,263163,locuoco_big_spam_ham_phish_300k,0000.parquet,0,ham,wassup avi
+short_text,263396,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,i tenaebeoheg fwz e
+short_text,263541,locuoco_big_spam_ham_phish_300k,0000.parquet,0,ham,dax
+short_text,263674,locuoco_big_spam_ham_phish_300k,0001.parquet,1,spam,ylq ma bxop rbk
+short_text,264374,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,jps zglu
+short_text,264618,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,a q ri
+short_text,264758,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,td a
+short_text,265385,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,chungpung net
+short_text,265688,locuoco_big_spam_ham_phish_300k,0000.parquet,0,ham,hey guess im joking
+short_text,265863,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,bicdxliy giresja
+short_text,266012,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,w otp
+short_text,266190,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,br intersperse
+short_text,266327,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,td lv pcqk g
+short_text,266450,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,hallo qaukpattauq
+short_text,266977,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,try this or nothing
+short_text,267082,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,pwvhx js
+short_text,267186,locuoco_big_spam_ham_phish_300k,0000.parquet,0,ham,see attached kim
+short_text,267478,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,full article :
+short_text,268399,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,y dhcabof a sypmrk
+short_text,268630,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,edrugs online
+short_text,268922,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,a tn qixcq rd
+short_text,269094,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,ðï  à ¡ ±
+short_text,269147,locuoco_big_spam_ham_phish_300k,0000.parquet,0,ham,lchurch epsa org
+short_text,269562,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,blondie beisel
+short_text,269703,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,nceflzurwd t r o
+short_text,269766,setfit_enron_spam,setfit_enron_spam.csv,1,spam,report ? }
+short_text,269848,setfit_enron_spam,setfit_enron_spam.csv,0,ham,please see attached
+short_text,270382,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,pcwindows
+short_text,270423,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,escapelong
+short_text,270486,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,shaved sweeties
+short_text,270695,locuoco_big_spam_ham_phish_300k,0000.parquet,0,ham,- wassup . avi
+short_text,270823,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,qli hqxi kyx
+short_text,271234,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,here
+short_text,271284,locuoco_big_spam_ham_phish_300k,0000.parquet,0,ham,fyi only
+short_text,271325,locuoco_big_spam_ham_phish_300k,0000.parquet,0,ham,coming
+short_text,271808,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,darlin zai jian
+short_text,271868,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,{ bodyhtml }
+short_text,272330,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,delbert
+short_text,272728,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,micp
+short_text,273011,locuoco_big_spam_ham_phish_300k,0001.parquet,1,spam,yzbdg
+short_text,273317,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,quot
+short_text,273438,locuoco_big_spam_ham_phish_300k,0000.parquet,0,ham,ecial = msn
+short_text,274036,locuoco_big_spam_ham_phish_300k,0001.parquet,1,spam,br quqgnui
+short_text,274614,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,head td td
+short_text,274706,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,visit here
+short_text,275227,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,td tnn nbxoen
+short_text,275323,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,merpkosjnkr
+short_text,276030,locuoco_big_spam_ham_phish_300k,0000.parquet,0,ham,hope folks make rd
+short_text,276166,locuoco_big_spam_ham_phish_300k,0000.parquet,0,ham,here is my report
+short_text,276237,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,tlkg
+short_text,276705,locuoco_big_spam_ham_phish_300k,0000.parquet,0,ham,amy has a big ear
+short_text,276982,locuoco_big_spam_ham_phish_300k,0001.parquet,0,ham,phil know guy
+short_text,277203,locuoco_big_spam_ham_phish_300k,0000.parquet,0,ham,attached are prices
+short_text,278004,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,a ufm u
+short_text,278240,locuoco_big_spam_ham_phish_300k,0000.parquet,0,ham,go work
+short_text,278519,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,boo politi politi
+short_text,278689,setfit_enron_spam,setfit_enron_spam.csv,1,spam,fw :
+short_text,278828,locuoco_big_spam_ham_phish_300k,0001.parquet,0,ham,who loves you baby
+short_text,279064,locuoco_big_spam_ham_phish_300k,0000.parquet,0,ham,thanks .
+short_text,279093,locuoco_big_spam_ham_phish_300k,0000.parquet,0,ham,bah
+short_text,280313,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,omfcp
+short_text,280680,locuoco_big_spam_ham_phish_300k,0000.parquet,0,ham,dc
+short_text,280979,locuoco_big_spam_ham_phish_300k,0000.parquet,0,ham,check these out :
+short_text,281146,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,head xpgltyxfw
+short_text,281223,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,ciao baby adiosu
+short_text,281387,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,bqxvkqhmai
+short_text,281524,locuoco_big_spam_ham_phish_300k,0001.parquet,0,ham,morning
+short_text,281536,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,font xz escapelong
+short_text,281692,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,pcobqhmnqdtbeci
+short_text,281906,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,lsipgx iavs ypcim
+short_text,281955,locuoco_big_spam_ham_phish_300k,0000.parquet,0,ham,try one
+short_text,282349,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,yorker wired work
+short_text,282957,locuoco_big_spam_ham_phish_300k,0000.parquet,0,ham,test
+short_text,283138,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,head
+short_text,283245,locuoco_big_spam_ham_phish_300k,0000.parquet,0,ham,bpa sales may
+short_text,283495,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,br o'connell
+short_text,283563,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,hey vastomazonok
+short_text,283711,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,brosselard caresa
+short_text,283804,locuoco_big_spam_ham_phish_300k,0000.parquet,0,ham,awesome glory doc
+short_text,283955,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,excuse me ciao
+short_text,284377,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,fnweh
+short_text,284470,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,bo rdx l
+short_text,284710,locuoco_big_spam_ham_phish_300k,0000.parquet,0,ham,luck getting copy
+short_text,284722,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,tlcmzqu iy bfvk emr
+short_text,284908,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,akq escapelong xfs
+short_text,285023,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,offers
+short_text,285123,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,tr tr
+short_text,285346,locuoco_big_spam_ham_phish_300k,0000.parquet,0,ham,answer
+short_text,285363,locuoco_big_spam_ham_phish_300k,0001.parquet,1,spam,unbelievable alu la
+short_text,285922,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,"paliourg
+bye - bye"
+short_text,286028,locuoco_big_spam_ham_phish_300k,0001.parquet,0,ham,brad gerry
+short_text,286512,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,vnjmgzr
+short_text,286832,locuoco_big_spam_ham_phish_300k,0001.parquet,0,ham,looking jason
+short_text,287235,locuoco_big_spam_ham_phish_300k,0001.parquet,1,spam,well never ar elwak
+short_text,287360,locuoco_big_spam_ham_phish_300k,0000.parquet,0,ham,here you go ac
+short_text,287475,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,efznyauqemlj
+short_text,287844,locuoco_big_spam_ham_phish_300k,0000.parquet,0,ham,what are you doing
+short_text,288064,locuoco_big_spam_ham_phish_300k,0001.parquet,1,spam,td td a a uzwpn u
+short_text,288151,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,l n
+short_text,288165,locuoco_big_spam_ham_phish_300k,0000.parquet,0,ham,i concur
+short_text,288402,locuoco_big_spam_ham_phish_300k,0000.parquet,0,ham,congratulations
+short_text,288445,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,vwzwqogmaei oxs soh
+short_text,288534,locuoco_big_spam_ham_phish_300k,0001.parquet,0,ham,are you there
+short_text,289358,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,ive heard sandeiv
+short_text,289776,locuoco_big_spam_ham_phish_300k,0001.parquet,1,spam,aescapenumber
+short_text,289884,locuoco_big_spam_ham_phish_300k,0000.parquet,0,ham,"daren ,
+fyi .
+bob"
+short_text,290286,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,jeanie
+short_text,291018,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,annabell berkley
+short_text,291304,locuoco_big_spam_ham_phish_300k,0000.parquet,0,ham,enjoy boyz
+short_text,291408,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,hi xaawa tel
+short_text,291585,setfit_enron_spam,setfit_enron_spam.csv,1,spam,holiday e - cards
+short_text,291815,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,obtrc
+short_text,292297,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,b eamjc bqq jpme
+short_text,292302,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,k rebjix mih
+short_text,293252,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,"groovy : )
+salam"
+short_text,293323,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,sd
+short_text,293600,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,bqhplhu gaqzlf
+short_text,293811,locuoco_big_spam_ham_phish_300k,0000.parquet,0,ham,a few updates debra
+short_text,294057,locuoco_big_spam_ham_phish_300k,0000.parquet,0,ham,left home
+short_text,294594,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,vaudevillemove me
+short_text,294938,locuoco_big_spam_ham_phish_300k,0001.parquet,1,spam,óã»§ãû£º email
+short_text,295009,locuoco_big_spam_ham_phish_300k,0001.parquet,1,spam,buzisu
+short_text,295338,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,« è®a¨àµ£¤å±ðcd
+short_text,295637,locuoco_big_spam_ham_phish_300k,0000.parquet,1,spam,ucikuuwa hjz

@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Spam Email Checker</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='spam_checker.css') }}">
+</head>
+<body>
+  <main class="app-shell">
+    <header class="topbar">
+      <div>
+        <h1>Spam Email Checker</h1>
+        <p>Dán nội dung email hoặc upload file <code>.txt/.eml</code> để kiểm tra spam.</p>
+      </div>
+    </header>
+
+    {% if error %}
+      <section class="alert error">{{ error }}</section>
+    {% endif %}
+
+    <section class="grid">
+      <div class="panel">
+        <h2>Nhập email</h2>
+        <form method="post" enctype="multipart/form-data">
+          <label for="email_text">Nội dung email</label>
+          <textarea id="email_text" name="email_text" rows="13" placeholder="Dán nội dung email cần kiểm tra...">{{ email_text or "" }}</textarea>
+
+          <label for="email_file">Hoặc upload file .txt/.eml</label>
+          <input id="email_file" name="email_file" type="file" accept=".txt,.eml">
+
+          <button type="submit">Kiểm tra spam</button>
+        </form>
+      </div>
+
+      <div class="panel">
+        <h2>Kết quả</h2>
+        {% if result %}
+          <div class="result-card {{ 'spam' if result.prediction == 'spam' else 'ham' }}">
+            <span class="result-label">{{ "SPAM" if result.prediction == "spam" else "NOT SPAM" }}</span>
+            <strong>{{ "%.2f"|format(result.spam_score * 100) }}%</strong>
+            <span>Spam score</span>
+          </div>
+
+          <div class="evidence">
+            <h3>Dẫn chứng</h3>
+            <p>{{ result.evidence.summary }}</p>
+
+            {% if result.evidence.top_terms %}
+              <h3>Các từ/cụm từ ảnh hưởng</h3>
+              <div class="terms">
+                {% for item in result.evidence.top_terms %}
+                  <span title="weight={{ item.weight }}">{{ item.term }}</span>
+                {% endfor %}
+              </div>
+            {% else %}
+              <p class="muted">Email này không có từ/cụm từ nổi bật trong tập đặc trưng của model.</p>
+            {% endif %}
+
+            <details>
+              <summary>Text sau tiền xử lý</summary>
+              <pre>{{ result.cleaned_text }}</pre>
+            </details>
+          </div>
+        {% else %}
+          <p class="muted">Kết quả sẽ hiển thị sau khi bạn nhập email và bấm kiểm tra.</p>
+        {% endif %}
+      </div>
+    </section>
+  </main>
+</body>
+</html>

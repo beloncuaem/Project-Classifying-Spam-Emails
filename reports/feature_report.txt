@@ -1,0 +1,60 @@
+BÁO CÁO FEATUBÁO CÁO FEATURE ENGINEERING
+Người thực hiện: Nhật Trung
+
+1. Giới thiệu
+Feature Engineering là bước chuyển đổi dữ liệu email thô thành các đặc trưng số để máy học có thể hiểu và học được.
+
+2. Các feature đã xây dựng
+
+2.1 TF-IDF Features
+- Dùng để chuyển nội dung email thành vector số dựa trên tần suất xuất hiện của từ
+- Tham số: max_features=5000, ngram_range=(1,2), stop_words='english', lowercase=True
+
+2.2 Manual Features (feature thủ công)
+- length: độ dài email
+- url_count: số lượng URL trong email
+- exclamation_count: số dấu !
+- dollar_count: số ký tự $
+- uppercase_ratio: tỷ lệ chữ in hoa / tổng số chữ
+
+3. Kết quả đạt được
+- Chỉ dùng TF-IDF: độ chính xác 96.8%
+- Dùng TF-IDF + Manual features: độ chính xác 97.2%
+- Kết luận: Thêm manual features giúp tăng độ chính xác thêm 0.4%
+
+4. Kết luận chung
+- Feature Engineering rất quan trọng cho bài toán phân loại spam
+- Kết hợp TF-IDF và manual features cho kết quả tốt nhất 97.2%
+- Các feature như URL, dấu !, tỷ lệ chữ hoa giúp nhận diện spam hiệu quả
+
+
+RE ENGINEERING
+Người thực hiện: Nhật Trung
+
+1. Giới thiệu
+Feature Engineering là bước chuyển đổi dữ liệu email thô thành các đặc trưng số để máy học có thể hiểu và học được.
+
+2. Các feature đã xây dựng
+
+2.1 TF-IDF Features
+- Dùng để chuyển nội dung email thành vector số dựa trên tần suất xuất hiện của từ
+- Tham số: max_features=5000, ngram_range=(1,2), stop_words='english', lowercase=True
+
+2.2 Manual Features (feature thủ công)
+- length: độ dài email
+- url_count: số lượng URL trong email
+- exclamation_count: số dấu !
+- dollar_count: số ký tự $
+- uppercase_ratio: tỷ lệ chữ in hoa / tổng số chữ
+
+3. Kết quả đạt được
+- Chỉ dùng TF-IDF: độ chính xác 96.8%
+- Dùng TF-IDF + Manual features: độ chính xác 97.2%
+- Kết luận: Thêm manual features giúp tăng độ chính xác thêm 0.4%
+
+4. Kết luận chung
+- Feature Engineering rất quan trọng cho bài toán phân loại spam
+- Kết hợp TF-IDF và manual features cho kết quả tốt nhất 97.2%
+- Các feature như URL, dấu !, tỷ lệ chữ hoa giúp nhận diện spam hiệu quả
+
+

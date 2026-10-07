@@ -1,0 +1,10 @@
+Subject: Urgent account verification required
+
+Dear user,
+
+Your mailbox account will be suspended within 24 hours because suspicious activity was detected.
+You must verify your password and security details now to keep your email active.
+
+Failure to update your account will result in permanent loss of access.
+
+Verify account: http://secure-mail-warning-example.com/login
